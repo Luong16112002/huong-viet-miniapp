@@ -1,0 +1,349 @@
+﻿.food-ai-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 10px 13px;
+  border: 1px solid #dbe4d3;
+  border-radius: 12px;
+  background: #edf3e7;
+  color: #24513b;
+  font-size: 12px;
+  font-weight: 600;
+}
+.food-ai-panel {
+  display: flex;
+  flex-direction: column;
+  height: min(680px, 76dvh);
+  max-height: 76vh;
+  background: #fcfaf6;
+  color: #294a3c;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.food-ai-panel header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-bottom: 1px solid #e2e6db;
+  flex-shrink: 0;
+}
+.food-ai-panel header strong {
+  display: block;
+  font-size: 15px;
+}
+.food-ai-panel header span {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+  color: #6c7864;
+}
+.food-ai-panel header button {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  background: #edf1e7;
+  border-radius: 50%;
+  font-size: 24px;
+}
+.food-ai-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 14px;
+  overscroll-behavior: contain;
+}
+.food-ai-intro {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+.food-ai-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.food-ai-chips button,
+.food-ai-actions button {
+  padding: 8px 10px;
+  background: #f4f5ed;
+  border: 1px solid #e0e5d8;
+  border-radius: 10px;
+  font-size: 11px;
+  color: #466048;
+  text-align: left;
+}
+.food-ai-turn {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.food-ai-turn > p {
+  padding: 12px;
+  border: 1px solid #e2e7dc;
+  border-radius: 4px 14px 14px 14px;
+  background: white;
+  white-space: pre-wrap;
+}
+.food-ai-turn.user > p {
+  width: fit-content;
+  max-width: 85%;
+  margin-left: auto;
+  color: white;
+  background: #19543f;
+  border-radius: 14px 4px 14px 14px;
+}
+.food-ai-card {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  padding: 10px;
+  background: #f1f4eb;
+  border-radius: 12px;
+}
+.food-ai-card > img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 9px;
+  flex-shrink: 0;
+}
+.food-ai-card > div {
+  min-width: 0;
+  flex: 1;
+}
+.food-ai-card strong,
+.food-ai-card span {
+  display: block;
+}
+.food-ai-card span {
+  font-size: 11px;
+}
+.food-ai-card button {
+  padding: 7px 8px;
+  margin: 6px 5px 0 0;
+  border-radius: 8px;
+  background: white;
+  color: #24513b;
+  font-size: 11px;
+}
+.food-ai-card button:last-child {
+  background: #19543f;
+  color: white;
+}
+.food-ai-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 9px 0;
+}
+.food-ai-actions button:first-child {
+  background: #e1ecda;
+  font-weight: 600;
+}
+.food-ai-input {
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+  padding: 10px 12px;
+  background: white;
+  border-top: 1px solid #e2e7dc;
+}
+.food-ai-input textarea {
+  min-width: 0;
+  flex: 1;
+  max-height: 86px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #f1f4ed;
+  font-size: 16px;
+  resize: none;
+  field-sizing: content;
+}
+.food-ai-input button {
+  width: 44px;
+  height: 44px;
+  align-self: flex-end;
+  border-radius: 12px;
+  background: #19543f;
+  color: white;
+}
+.food-ai-panel button:disabled {
+  opacity: 0.5;
+}
+.food-ai-panel button:focus-visible {
+  outline: 2px solid #b88a49;
+  outline-offset: 2px;
+}
+.food-ai-loading {
+  font-size: 12px;
+  padding: 12px 0;
+}
+.food-ai-loading span {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-left: 4px;
+  border-radius: 50%;
+  background: #628d7b;
+  animation: food-ai-pulse 1.2s infinite;
+}
+.food-ai-loading span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.food-ai-loading span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.food-ai-notice {
+  padding: 5px 12px;
+  margin: 0;
+  font-size: 11px;
+  color: #376349;
+}
+@keyframes food-ai-pulse {
+  50% {
+    opacity: 0.25;
+    transform: translateY(-3px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .food-ai-loading span {
+    animation: none;
+  }
+}
+/* Leave the real product order bar visible and interactive beneath the sheet. */
+.food-ai-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  pointer-events: none;
+}
+.food-ai-backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(16, 40, 29, 0.18);
+  pointer-events: auto;
+  border: 0;
+}
+.food-ai-sheet {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(100%, 430px);
+  height: min(640px, 75dvh);
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  pointer-events: auto;
+  box-shadow: 0 -6px 28px #163e3114;
+  padding-bottom: 0;
+  outline: none;
+}
+.food-ai-handle {
+  width: 34px;
+  height: 4px;
+  background: #ced8cc;
+  border-radius: 99px;
+  margin: 9px auto 0;
+  flex-shrink: 0;
+}
+.food-ai-panel header {
+  padding: 10px 14px 12px;
+}
+.food-ai-panel header span {
+  font-size: 11px;
+}
+.food-ai-panel header button {
+  width: 32px;
+  height: 32px;
+  font-size: 22px;
+}
+.food-ai-intro {
+  display: none;
+}
+.food-ai-body {
+  padding: 12px 14px;
+}
+.food-ai-chips {
+  gap: 8px;
+}
+.food-ai-chips button {
+  border-radius: 18px;
+  padding: 7px 10px;
+  background: #f3f7f3;
+  border-color: #e2e9e3;
+  font-size: 11px;
+  line-height: 1.4;
+}
+.food-ai-expand {
+  display: block;
+  margin: 9px 0 2px;
+  padding: 5px 0;
+  color: #477257;
+  font-size: 11px;
+  font-weight: 600;
+}
+.food-ai-author {
+  display: block;
+  margin: 0 0 5px 2px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #8c784b;
+}
+.food-ai-turn.ai > p {
+  margin: 0;
+  background: #fff;
+}
+.food-ai-turn.user > p {
+  border: 0;
+}
+.food-ai-card {
+  padding: 8px;
+  gap: 8px;
+}
+.food-ai-card > img {
+  width: 44px;
+  height: 44px;
+}
+.food-ai-card strong {
+  font-size: 12px;
+}
+.food-ai-card > div {
+  position: relative;
+  padding-right: 36px;
+}
+.food-ai-card button:last-child {
+  position: absolute;
+  right: 0;
+  top: 3px;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.food-ai-card button:first-child {
+  margin: 0;
+  padding: 2px 0;
+  background: none;
+  font-size: 10px;
+  text-decoration: underline;
+}
+.food-ai-actions button {
+  font-size: 10px;
+  padding: 7px 8px;
+}
+.food-ai-input {
+  position: sticky;
+  bottom: 0;
+}
+.food-ai-panel:focus-visible {
+  outline: 2px solid #b88a49;
+  outline-offset: -2px;
+}

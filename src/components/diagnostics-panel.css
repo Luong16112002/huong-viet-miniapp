@@ -1,0 +1,10 @@
+.prod-diagnostics { position: fixed; z-index: 99999; left: 12px; bottom: calc(90px + env(safe-area-inset-bottom)); width: min(380px, calc(100vw - 24px)); border: 1px solid #8aa696; border-radius: 12px; background: #fff; color: #152c20; box-shadow: 0 4px 24px #0003; font: 13px/1.5 sans-serif; }
+.prod-diagnostics button { padding: 10px 12px; background: #123c29; color: #fff; border: 0; border-radius: 8px; cursor: pointer; }
+.prod-diagnostics .prod-diagnostics-toggle { width: 100%; text-align: left; font-weight: 700; }
+.prod-diagnostics-body { padding: 12px; max-height: 55vh; overflow: auto; }
+.prod-diagnostics p { margin: 6px 0; }
+.prod-diagnostics code { display: block; overflow-wrap: anywhere; font-size: 11px; }
+.prod-check { padding: 8px 0; border-bottom: 1px solid #dde5df; }
+.prod-check-OK strong { color: #157347; }
+.prod-check-FAILED strong, .prod-check-FAILED p { color: #b42318; }
+.prod-diagnostics a { display: block; margin-top: 8px; text-decoration: underline; }

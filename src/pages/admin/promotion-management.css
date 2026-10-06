@@ -1,0 +1,1313 @@
+.admin-app .pm-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #1d3027;
+  min-width: 0;
+  --pm-border: #e5eae5;
+  --pm-muted: #7a867f;
+}
+.admin-app .pm-page button,
+.admin-app .pm-form button,
+.admin-app .pm-drawer button {
+  font: inherit;
+  cursor: pointer;
+}
+.admin-app .pm-page button:disabled,
+.admin-app .pm-form button:disabled,
+.admin-app .pm-drawer button:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+.admin-app .pm-page button:focus-visible,
+.admin-app .pm-form button:focus-visible,
+.admin-app .pm-drawer button:focus-visible,
+.admin-app .pm-page input:focus-visible,
+.admin-app .pm-form input:focus-visible,
+.admin-app .pm-page select:focus-visible,
+.admin-app .pm-form select:focus-visible {
+  outline: 3px solid #d6b15b;
+  outline-offset: 2px;
+}
+.admin-app .pm-stats {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+.admin-app .pm-stat {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 18px 16px;
+  background: #fff;
+  border: 1px solid #e5eae5;
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(18, 60, 43, 0.04);
+  min-width: 0;
+}
+.admin-app .pm-stat > span {
+  height: 42px;
+  width: 42px;
+  display: grid;
+  place-items: center;
+  flex: none;
+  background: #e8f4ec;
+  color: #0b5a3c;
+  border-radius: 13px;
+}
+.admin-app .pm-stat p {
+  font-size: 13px;
+  font-weight: 600;
+  color: #64746b;
+  margin: 0 0 7px;
+  line-height: 1.4;
+}
+.admin-app .pm-stat strong {
+  font-size: 28px;
+  line-height: 1.25;
+  font-weight: 800;
+  color: #0b5a3c;
+}
+.admin-app .pm-tone-gold > span {
+  background: #fbf4e2;
+  color: #ab802b;
+}
+.admin-app .pm-tone-red > span {
+  background: #fceeea;
+  color: #c86656;
+}
+.admin-app .pm-tone-blue > span {
+  background: #eaf2fc;
+  color: #4475aa;
+}
+.admin-app .pm-filters {
+  display: grid;
+  grid-template-columns:
+    minmax(220px, 1.6fr) minmax(155px, 1.2fr) minmax(155px, 1.2fr)
+    minmax(140px, 1fr) minmax(140px, 1fr);
+  gap: 14px;
+  padding: 18px;
+  background: #fff;
+  border: 1px solid #e5eae5;
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(18, 60, 43, 0.035);
+  align-items: end;
+}
+.admin-app .pm-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+}
+.admin-app .pm-filters label > span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #53675d;
+}
+.admin-app .pm-filters input,
+.admin-app .pm-filters select {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #e5eae5;
+  border-radius: 12px;
+  background: #fbfcfa;
+  padding: 0 11px;
+  font-size: 13px;
+  color: #30483b;
+  min-width: 0;
+}
+.admin-app .pm-search > div {
+  position: relative;
+}
+.admin-app .pm-search svg {
+  position: absolute;
+  left: 12px;
+  top: 11px;
+  color: #7a867f;
+  width: 19px;
+  height: 19px;
+}
+.admin-app .pm-search input {
+  padding-left: 40px;
+}
+.admin-app .pm-filter-buttons {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 2px;
+}
+.admin-app .pm-filter-buttons button {
+  height: 40px;
+  border-radius: 11px;
+  padding: 0 16px;
+  font-size: 13px;
+  color: #0b5a3c;
+  font-weight: 700;
+}
+.admin-app button.pm-primary {
+  background: #0b5a3c;
+  border-color: #0b5a3c;
+  color: #fff;
+  font-weight: 700;
+}
+.admin-app button.pm-primary:hover:enabled {
+  background: #073e2b;
+}
+.admin-app .pm-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.admin-app .pm-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.admin-app .pm-tabs button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e5eae5;
+  border-radius: 11px;
+  padding: 10px 12px;
+  background: #fff;
+  color: #53675d;
+  font-size: 12px;
+  font-weight: 600;
+}
+.admin-app .pm-tabs button > span {
+  display: grid;
+  place-items: center;
+  min-width: 22px;
+  height: 20px;
+  padding: 0 5px;
+  background: #edf3ed;
+  border-radius: 6px;
+  font-size: 11px;
+}
+.admin-app .pm-tabs button:hover {
+  background: #e8f4ec;
+}
+.admin-app .pm-tabs button[aria-pressed="true"] {
+  background: #0b5a3c;
+  color: #fff;
+  border-color: #0b5a3c;
+}
+.admin-app .pm-tabs button[aria-pressed="true"] > span {
+  background: #ffffff26;
+}
+.admin-app .pm-refresh {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  padding: 10px 12px;
+  color: #526c5c;
+  flex: none;
+}
+.admin-app .pm-refresh svg {
+  width: 17px;
+  height: 17px;
+}
+.admin-app .pm-table-card {
+  background: #fff;
+  border: 1px solid #e5eae5;
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(18, 60, 43, 0.05);
+  min-width: 0;
+}
+.admin-app .pm-table-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 18px 20px;
+}
+.admin-app .pm-table-heading h2 {
+  font-size: 17px;
+  font-weight: 800;
+  margin: 0 0 5px;
+}
+.admin-app .pm-table-heading p {
+  font-size: 13px;
+  color: #7a867f;
+  margin: 0;
+}
+.admin-app .pm-table-heading > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #9d7c3f;
+  font-size: 12px;
+}
+.admin-app .pm-table-heading svg {
+  width: 17px;
+  height: 17px;
+}
+.admin-app .pm-table-scroll {
+  max-height: 680px;
+  overflow: auto;
+}
+.admin-app .pm-table {
+  width: 100%;
+  min-width: 1100px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+.admin-app .pm-table th {
+  position: sticky;
+  top: 0;
+  background: #f0f5f1;
+  color: #53675d;
+  font-size: 11px;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  padding: 14px 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  z-index: 2;
+}
+.admin-app .pm-table td {
+  padding: 13px;
+  border-bottom: 1px solid #edf0ed;
+  vertical-align: middle;
+  transition: background 0.18s;
+}
+.admin-app .pm-table th:nth-child(1) {
+  width: 17%;
+}
+.admin-app .pm-table th:nth-child(2) {
+  width: 10%;
+}
+.admin-app .pm-table th:nth-child(3) {
+  width: 9%;
+}
+.admin-app .pm-table th:nth-child(4) {
+  width: 12%;
+}
+.admin-app .pm-table th:nth-child(5) {
+  width: 10%;
+}
+.admin-app .pm-table th:nth-child(6) {
+  width: 10%;
+}
+.admin-app .pm-table th:nth-child(7) {
+  width: 8%;
+}
+.admin-app .pm-table th:nth-child(8) {
+  width: 12%;
+}
+.admin-app .pm-table th:nth-child(9) {
+  width: 12%;
+}
+.admin-app .pm-table td,
+.admin-app .pm-table th {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+.admin-app .pm-table th:last-child {
+  position: sticky;
+  right: 0;
+  z-index: 3;
+}
+.admin-app .pm-table td:last-child {
+  position: sticky;
+  right: 0;
+  background: #fff;
+  z-index: 1;
+  box-shadow: -5px 0 12px #123c2b05;
+}
+.admin-app .pm-table td:last-child:has(.pm-action-menu) {
+  z-index: 4;
+}
+.admin-app .pm-table tr:hover td {
+  background: #f8fbf8;
+}
+.admin-app .pm-table .pm-row-soon td {
+  background: #fffdf7;
+}
+.admin-app .pm-table .pm-row-soon td:first-child {
+  box-shadow: inset 3px 0 #e6a846;
+}
+.admin-app .pm-table td > small {
+  display: block;
+  color: #7a867f;
+  font-size: 11px;
+  margin-top: 6px;
+}
+.admin-app .pm-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  max-width: 240px;
+}
+.admin-app .pm-name > span {
+  width: 36px;
+  height: 36px;
+  border-radius: 11px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  background: #f6f1e4;
+  color: #ad8540;
+}
+.admin-app .pm-name svg {
+  width: 18px;
+  height: 18px;
+}
+.admin-app .pm-name b {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.admin-app .pm-name > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.admin-app .pm-name small {
+  display: block;
+  font-size: 11px;
+  color: #7a867f;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+.admin-app .pm-code {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.admin-app .pm-code code {
+  background: #eef5ef;
+  color: #0b5a3c;
+  border: 1px dashed #c9dbce;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  max-width: 180px;
+}
+.admin-app .pm-code button {
+  padding: 3px;
+  border: 0;
+  background: transparent;
+  color: #7a867f;
+  opacity: 0;
+  display: flex;
+}
+.admin-app .pm-code:hover button,
+.admin-app .pm-code:focus-within button {
+  opacity: 1;
+}
+.admin-app .pm-code svg {
+  width: 15px;
+  height: 15px;
+}
+.admin-app .pm-type {
+  display: inline-flex;
+  background: #f1f3f7;
+  color: #65748b;
+  padding: 5px 8px;
+  border-radius: 7px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.admin-app .pm-condition {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  display: block;
+  min-width: 0;
+}
+.admin-app .pm-discount {
+  color: #0b5a3c;
+  font-weight: 800;
+  font-size: 13px;
+  display: block;
+  line-height: 1.6;
+  min-width: 0;
+}
+.admin-app .pm-dates {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+.admin-app .pm-dates b {
+  font-size: 12px;
+  font-weight: 600;
+}
+.admin-app .pm-dates small {
+  font-size: 11px;
+  color: #7a867f;
+}
+.admin-app .pm-expiring {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 3px 6px;
+  background: #fff0ce;
+  color: #a17a2c;
+  font-size: 10px;
+  margin-top: 6px;
+}
+.admin-app .pm-usage {
+  border: 0;
+  background: #f3f7f3;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 12px;
+  color: #536c5d;
+  white-space: nowrap;
+}
+.admin-app .pm-usage b {
+  color: #0b5a3c;
+}
+.admin-app .pm-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  padding: 6px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  background: #e8f4ec;
+  color: #0b5a3c;
+}
+.admin-app .pm-status i {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.admin-app .pm-status-soon {
+  background: #fff3d8;
+  color: #9d752c;
+}
+.admin-app .pm-status-expired {
+  background: #fcebe8;
+  color: #bb594c;
+}
+.admin-app .pm-status-disabled {
+  background: #eff1ef;
+  color: #7a867f;
+}
+.admin-app .pm-status-scheduled {
+  background: #eaf2fc;
+  color: #4475aa;
+}
+.admin-app .pm-actions {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  white-space: nowrap;
+}
+.admin-app .pm-actions > button {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 0 9px;
+  height: 34px;
+  border-radius: 9px;
+  font-size: 12px;
+  color: #0b5a3c;
+  font-weight: 600;
+}
+.admin-app .pm-actions svg {
+  width: 15px;
+  height: 15px;
+}
+.admin-app .pm-actions > .pm-more {
+  width: 34px;
+  justify-content: center;
+  padding: 0;
+  font-size: 22px;
+}
+.admin-app .pm-action-menu {
+  position: absolute;
+  right: 0;
+  top: 39px;
+  z-index: 5;
+  width: 185px;
+  border: 1px solid #e5eae5;
+  background: #fff;
+  border-radius: 12px;
+  padding: 5px;
+  box-shadow: 0 12px 32px #163d2a22;
+}
+.admin-app .pm-action-menu button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  border-radius: 7px;
+  font-size: 13px;
+  background: transparent;
+  padding: 9px 10px;
+  color: #30483b;
+}
+.admin-app .pm-action-menu button:hover {
+  background: #e8f4ec;
+}
+.admin-app .pm-action-menu button.pm-danger {
+  color: #c25c4e;
+}
+.admin-app .pm-table-scroll:has(.pm-action-menu) {
+  padding-bottom: 205px;
+}
+.admin-app .pm-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px 20px;
+  border-top: 1px solid #e5eae5;
+  font-size: 12px;
+  color: #7a867f;
+}
+.admin-app .pm-pagination nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.admin-app .pm-pagination button {
+  height: 34px;
+  min-width: 34px;
+  padding: 0 9px;
+  border-radius: 8px;
+  border: 1px solid #e5eae5;
+  font-size: 12px;
+  color: #4c6556;
+}
+.admin-app .pm-pagination button[aria-current="page"] {
+  background: #0b5a3c;
+  border-color: #0b5a3c;
+  color: #fff;
+}
+.admin-app .pm-pagination select {
+  height: 34px;
+  padding: 0 8px;
+  border: 1px solid #e5eae5;
+  border-radius: 9px;
+  font-size: 12px;
+}
+.admin-app .pm-ellipsis {
+  padding: 0 4px;
+}
+.admin-app .pm-empty,
+.admin-app .pm-panel-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 20px;
+  text-align: center;
+}
+.admin-app .pm-empty > span {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  background: #e8f4ec;
+  color: #0b5a3c;
+}
+.admin-app .pm-empty h3 {
+  font-size: 17px;
+  margin: 4px 0 0;
+}
+.admin-app .pm-empty p,
+.admin-app .pm-panel-empty p {
+  color: #7a867f;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+.admin-app .pm-empty button {
+  font-size: 13px;
+  margin-top: 5px;
+}
+.admin-app .pm-panel-empty svg {
+  color: #7a867f;
+}
+.admin-app .pm-panel-empty b {
+  font-size: 14px;
+}
+.admin-app .pm-error {
+  border: 1px solid #f0d3cc;
+  border-radius: 10px;
+  background: #fff2ee;
+  padding: 12px 14px;
+  color: #b44c40;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+.admin-app .admin-drawer:has(.pm-form),
+.admin-app .admin-drawer:has(.pm-drawer) {
+  width: min(560px, 100vw);
+  max-width: 100vw;
+  padding: 0;
+  border-radius: 18px 0 0 18px;
+  background: #fff;
+  color: #1d3027;
+}
+.admin-app .admin-drawer:has(.pm-form) > header,
+.admin-app .admin-drawer:has(.pm-drawer) > header {
+  padding: 18px 22px;
+  margin: 0;
+  border-bottom: 1px solid #e5eae5;
+}
+.admin-app .pm-form,
+.admin-app .pm-drawer {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  font-size: 13px;
+}
+.admin-app .pm-form-intro {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.admin-app .pm-form-intro > span {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: #f8f1df;
+  color: #a17a2c;
+  flex: none;
+}
+.admin-app .pm-form-intro h3 {
+  font-size: 15px;
+  margin: 0 0 6px;
+}
+.admin-app .pm-form-intro p {
+  font-size: 12px;
+  color: #7a867f;
+  line-height: 1.6;
+  margin: 0;
+}
+.admin-app .pm-form fieldset {
+  min-width: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.admin-app .pm-form legend {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.admin-app .pm-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+}
+.admin-app .pm-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  min-width: 0;
+}
+.admin-app .pm-form-field > span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #53675d;
+}
+.admin-app .pm-form-field em {
+  font-style: normal;
+  color: #d95e52;
+}
+.admin-app .pm-form-field input,
+.admin-app .pm-form-field select {
+  height: 42px;
+  min-width: 0;
+  width: 100%;
+  border: 1px solid #e5eae5;
+  border-radius: 10px;
+  padding: 0 10px;
+  background: #fff;
+  color: #30483b;
+  font-size: 13px;
+}
+.admin-app .pm-form-field input:disabled {
+  background: #f4f6f3;
+  color: #869087;
+}
+.admin-app .pm-form-wide {
+  grid-column: 1/-1;
+}
+.admin-app .pm-form-field > small {
+  font-size: 11px;
+  color: #7a867f;
+  line-height: 1.6;
+}
+.admin-app .pm-form-field > small.pm-field-error {
+  color: #bf5144;
+}
+.admin-app .pm-form-field input[aria-invalid="true"] {
+  border-color: #d95e52;
+  background: #fffaf8;
+}
+.admin-app .pm-limit-fields {
+  background: #f8faf7 !important;
+  border-radius: 12px;
+  padding: 15px !important;
+  border: 1px dashed #dce5dc !important;
+}
+.admin-app .pm-limit-fields p {
+  font-size: 11px;
+  color: #7a867f;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+.admin-app .pm-limit-fields legend {
+  margin: 0;
+  padding: 0 5px;
+  font-size: 13px;
+}
+.admin-app .pm-enabled {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #dce8df;
+  border-radius: 12px;
+  padding: 14px;
+  background: #f6faf6;
+}
+.admin-app .pm-enabled input {
+  width: 18px;
+  height: 18px;
+  accent-color: #0b5a3c;
+  flex: none;
+}
+.admin-app .pm-enabled span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.admin-app .pm-enabled b {
+  font-size: 13px;
+}
+.admin-app .pm-enabled small {
+  font-size: 11px;
+  color: #7a867f;
+}
+.admin-app .pm-form-preview {
+  padding: 16px;
+  border: 1px dashed #c9dbce;
+  border-radius: 12px;
+  background: #f0f7f1;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.admin-app .pm-form-preview span {
+  font-size: 11px;
+  color: #7a867f;
+}
+.admin-app .pm-form-preview strong {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0b5a3c;
+}
+.admin-app .pm-form-preview small {
+  font-size: 12px;
+  color: #64746b;
+}
+.admin-app .pm-form-footer,
+.admin-app .pm-detail-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  position: sticky;
+  bottom: -22px;
+  background: #fff;
+  padding: 16px 0 6px;
+  border-top: 1px solid #e5eae5;
+}
+.admin-app .pm-form-footer button,
+.admin-app .pm-detail-footer button {
+  font-size: 13px;
+  border-radius: 11px;
+  min-height: 42px;
+  padding: 0 16px;
+}
+.admin-app .pm-detail-footer button {
+  flex: 1;
+}
+.admin-app .pm-detail-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.admin-app .pm-detail-hero > span {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 15px;
+  background: #faf1dc;
+  color: #a17a2c;
+}
+.admin-app .pm-detail-hero h2 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 0;
+}
+.admin-app .pm-detail-hero > p {
+  font-size: 13px;
+  color: #7a867f;
+  line-height: 1.6;
+  margin: 0;
+}
+.admin-app .pm-detail-hero > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.admin-app .pm-detail-hero code {
+  background: #eef5ef;
+  border: 1px dashed #c9dbce;
+  color: #0b5a3c;
+  padding: 7px 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.admin-app .pm-detail-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #e5eae5;
+}
+.admin-app .pm-detail-tabs button {
+  flex: 1;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  padding: 12px 5px;
+  font-size: 13px;
+  color: #7a867f;
+}
+.admin-app .pm-detail-tabs button[aria-pressed="true"] {
+  border-color: #0b5a3c;
+  color: #0b5a3c;
+  font-weight: 700;
+}
+.admin-app .pm-detail-tabs span {
+  padding: 3px 6px;
+  background: #e8f4ec;
+  border-radius: 6px;
+  font-size: 11px;
+  margin-left: 5px;
+}
+.admin-app .pm-drawer h3 {
+  font-size: 15px;
+  margin: 0 0 15px;
+}
+.admin-app .pm-drawer dl {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+}
+.admin-app .pm-drawer dl > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+}
+.admin-app .pm-drawer dt {
+  color: #7a867f;
+  flex: none;
+  font-size: 12px;
+}
+.admin-app .pm-drawer dd {
+  margin: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+  min-width: 0;
+  font-weight: 600;
+  font-size: 12px;
+}
+.admin-app .pm-performance {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.admin-app .pm-performance article {
+  padding: 15px;
+  background: #f5f8f4;
+  border: 1px solid #e5eae5;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.admin-app .pm-performance small {
+  color: #7a867f;
+  font-size: 11px;
+}
+.admin-app .pm-performance b {
+  color: #0b5a3c;
+  font-size: 20px;
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+.admin-app .pm-note {
+  font-size: 11px;
+  color: #7a867f;
+  line-height: 1.6;
+  margin: 12px 0 0;
+}
+.admin-app .pm-use-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.admin-app .pm-use-list article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid #e5eae5;
+  border-radius: 12px;
+}
+.admin-app .pm-use-list article > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.admin-app .pm-use-list article > div:last-child {
+  text-align: right;
+}
+.admin-app .pm-use-list b {
+  font-size: 13px;
+  color: #0b5a3c;
+}
+.admin-app .pm-use-list span {
+  font-size: 12px;
+}
+.admin-app .pm-use-list small {
+  color: #7a867f;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.admin-app .pm-use-list strong {
+  color: #0b5a3c;
+  font-size: 14px;
+  font-weight: 800;
+}
+.admin-app .pm-delete {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.admin-app .pm-delete > span {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: #fff0eb;
+  color: #c86656;
+}
+.admin-app .pm-delete p {
+  margin: 0;
+}
+.admin-app .pm-delete > small {
+  color: #7a867f;
+  font-size: 12px;
+}
+.admin-app .pm-delete footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  border-top: 1px solid #e5eae5;
+  padding-top: 16px;
+}
+.admin-app .pm-delete button.pm-danger {
+  background: #d95e52;
+  color: white;
+  border-color: #d95e52;
+}
+@media (max-width: 1250px) {
+  .admin-app .pm-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .admin-app .pm-filters {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .admin-app .pm-toolbar {
+    align-items: flex-start;
+  }
+  .admin-app .pm-table-heading > span {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .admin-app .pm-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .admin-app .pm-stat:last-child {
+    grid-column: 1/-1;
+  }
+  .admin-app .pm-filters {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .admin-app .pm-search {
+    grid-column: 1/-1;
+  }
+  .admin-app .pm-pagination {
+    flex-wrap: wrap;
+  }
+  .admin-app .pm-pagination nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+  .admin-app .pm-toolbar {
+    flex-wrap: wrap;
+  }
+  .admin-app .pm-table {
+    min-width: 1170px;
+  }
+  .admin-app .pm-code button {
+    opacity: 1;
+  }
+}
+@media (max-width: 600px) {
+  .admin-app .pm-page {
+    gap: 15px;
+  }
+  .admin-app .pm-stat {
+    padding: 14px 12px;
+    gap: 9px;
+  }
+  .admin-app .pm-stat > span {
+    height: 34px;
+    width: 34px;
+    border-radius: 10px;
+  }
+  .admin-app .pm-stat svg {
+    width: 19px;
+    height: 19px;
+  }
+  .admin-app .pm-stat p {
+    font-size: 12px;
+  }
+  .admin-app .pm-stat strong {
+    font-size: 25px;
+  }
+  .admin-app .pm-filters {
+    padding: 14px;
+    gap: 12px;
+  }
+  .admin-app .pm-filters label > span {
+    font-size: 11px;
+  }
+  .admin-app .pm-filters input,
+  .admin-app .pm-filters select {
+    font-size: 12px;
+    padding-left: 8px;
+  }
+  .admin-app .pm-search input {
+    padding-left: 35px;
+  }
+  .admin-app .pm-filter-buttons {
+    justify-content: stretch;
+  }
+  .admin-app .pm-filter-buttons button {
+    flex: 1;
+    padding: 0 8px;
+    font-size: 12px;
+  }
+  .admin-app .pm-tabs {
+    gap: 6px;
+  }
+  .admin-app .pm-tabs button {
+    font-size: 11px;
+    padding: 8px 9px;
+  }
+  .admin-app .pm-tabs button > span {
+    font-size: 10px;
+    min-width: 18px;
+  }
+  .admin-app .pm-table-heading {
+    padding: 16px;
+  }
+  .admin-app .pm-table-scroll {
+    max-height: none;
+    overflow: visible;
+    padding: 0 12px;
+  }
+  .admin-app .pm-table {
+    display: block;
+    min-width: 0;
+  }
+  .admin-app .pm-table thead {
+    display: none;
+  }
+  .admin-app .pm-table tbody {
+    display: block;
+  }
+  .admin-app .pm-table tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border: 1px solid #e5eae5;
+    border-radius: 14px;
+    margin-bottom: 12px;
+    padding: 13px;
+    gap: 12px;
+  }
+  .admin-app .pm-table td {
+    padding: 0;
+    border: 0;
+    min-width: 0 !important;
+  }
+  .admin-app .pm-table td:before {
+    display: block;
+    content: attr(data-label);
+    font-size: 10px;
+    color: #7a867f;
+    margin-bottom: 6px;
+  }
+  .admin-app .pm-table td:first-child {
+    grid-column: 1/-1;
+  }
+  .admin-app .pm-table td:first-child:before,
+  .admin-app .pm-table td:last-child:before {
+    display: none;
+  }
+  .admin-app .pm-name {
+    max-width: none;
+    min-width: 0;
+  }
+  .admin-app .pm-table td:nth-child(4),
+  .admin-app .pm-table td:nth-child(5),
+  .admin-app .pm-table td:last-child {
+    grid-column: 1/-1;
+  }
+  .admin-app .pm-table td:last-child {
+    border-top: 1px solid #edf0ed;
+    padding-top: 12px;
+  }
+  .admin-app .pm-table .pm-row-soon {
+    border-color: #ecd5a2;
+    background: #fffdf7;
+  }
+  .admin-app .pm-table .pm-row-soon td {
+    background: transparent;
+  }
+  .admin-app .pm-table .pm-row-soon td:first-child {
+    box-shadow: none;
+  }
+  .admin-app .pm-table tr:hover td {
+    background: transparent;
+  }
+  .admin-app .pm-dates {
+    min-width: 0;
+  }
+  .admin-app .pm-dates b {
+    font-size: 11px;
+  }
+  .admin-app .pm-actions {
+    justify-content: flex-end;
+  }
+  .admin-app .pm-actions > button {
+    height: 36px;
+  }
+  .admin-app .pm-code code {
+    max-width: 105px;
+    font-size: 11px;
+  }
+  .admin-app .pm-table-scroll:has(.pm-action-menu) {
+    padding-bottom: 205px;
+  }
+  .admin-app .pm-pagination {
+    padding: 14px 12px;
+    font-size: 11px;
+    gap: 12px;
+  }
+  .admin-app .pm-pagination nav {
+    gap: 3px;
+  }
+  .admin-app .pm-pagination button {
+    min-width: 29px;
+    padding: 0 7px;
+    font-size: 11px;
+  }
+  .admin-app .admin-drawer:has(.pm-form),
+  .admin-app .admin-drawer:has(.pm-drawer) {
+    border-radius: 0;
+  }
+  .admin-app .pm-form,
+  .admin-app .pm-drawer {
+    padding: 18px;
+    gap: 20px;
+  }
+  .admin-app .pm-form-footer,
+  .admin-app .pm-detail-footer {
+    bottom: -18px;
+  }
+  .admin-app .pm-form-field > span {
+    font-size: 11px;
+  }
+  .admin-app .pm-form-field input,
+  .admin-app .pm-form-field select {
+    font-size: 12px;
+  }
+  .admin-app .pm-form-intro p {
+    font-size: 11px;
+  }
+  .admin-app .pm-form-intro h3 {
+    font-size: 14px;
+  }
+  .admin-app .pm-detail-hero h2 {
+    font-size: 20px;
+  }
+  .admin-app .pm-drawer dl > div {
+    gap: 12px;
+  }
+  .admin-app .pm-drawer dt,
+  .admin-app .pm-drawer dd {
+    font-size: 11px;
+  }
+  .admin-app .pm-performance b {
+    font-size: 18px;
+  }
+  .admin-app .pm-use-list article {
+    gap: 10px;
+    padding: 12px;
+  }
+  .admin-app .pm-use-list small {
+    font-size: 10px;
+  }
+  .admin-app .pm-use-list strong {
+    font-size: 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .admin-app .pm-table td {
+    transition: none;
+  }
+}

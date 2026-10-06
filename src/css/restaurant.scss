@@ -1,0 +1,84 @@
+/* Shared visual finish for the restaurant storefront. */
+:root {
+  --restaurant-ink: #183c2d;
+  --restaurant-muted: #68756d;
+  --restaurant-border: #e2e9e1;
+  --restaurant-surface: #f7f8f2;
+}
+html, body { background: var(--restaurant-surface); }
+body { -webkit-font-smoothing: antialiased; }
+.app-shell { background: var(--restaurant-surface); isolation: isolate; }
+@supports (height: 100dvh) { .app-shell { height: 100dvh; } }
+.app-shell > .bg-peach-fade { pointer-events: none; }
+.home-page { background: var(--restaurant-surface); }
+.home-page .heading_serif { font-size: 25px; line-height: 1.3; letter-spacing: -0.7px; }
+.home-page .animate-kenburns { animation: none; }
+.home-page .shimmer, .home-page .animate-pulse-ring { animation: none; opacity: 0.15; }
+.home-page .shadow-card, .home-page .shadow-card-sm {
+  border-color: var(--restaurant-border);
+  box-shadow: 0 3px 16px rgba(24, 60, 45, 0.045);
+}
+.product-tile {
+  display: flex; flex-direction: column; width: 100%; min-width: 0;
+  overflow: hidden; box-sizing: border-box;
+  padding: 10px; border: 1px solid var(--restaurant-border);
+  border-radius: 20px; background: #fff;
+  box-shadow: 0 4px 18px rgba(24, 60, 45, 0.045);
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+.product-grid {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: stretch; gap: 12px; width: 100%; min-width: 0;
+}
+/* Reserve image space independently of intrinsic image size and WebView aspect-ratio support. */
+.product-tile .product-tile-media {
+  position: relative; width: 100%; height: 0; padding-bottom: 100%;
+  flex: 0 0 auto; overflow: hidden; border-radius: 14px; background: #edf1e9;
+}
+.product-tile-media > img {
+  position: absolute; inset: 0; display: block;
+  width: 100%; height: 100%; max-width: 100%; object-fit: cover;
+}
+.product-tile > div:nth-child(2) { flex: 1; min-width: 0; gap: 8px; margin-top: 12px; }
+.product-tile .line-clamp-2 { overflow-wrap: anywhere; }
+.product-grid > * { min-width: 0; }
+.product-grid > div > .product-tile { height: 100%; }
+.product-tile .product-price-row { flex-wrap: wrap; margin-top: auto; padding-top: 10px; align-items: center; }
+.product-tile .product-price {
+  background: none; color: var(--restaurant-ink); font-size: 18px;
+  font-weight: 750; letter-spacing: -0.6px; line-height: 1.25;
+  font-variant-numeric: tabular-nums;
+}
+.product-tile .product-price-row > div:first-child { flex-wrap: nowrap; white-space: nowrap; }
+.product-tile .product-add {
+  background: #216c3b !important; background-image: none !important;
+  border-radius: 12px; box-shadow: 0 3px 8px rgba(33,108,59,0.15);
+}
+.product-tile .product-step-up { background: #216c3b; }
+.product-tile .line-clamp-2 { font-size: 14px; line-height: 1.5; color: var(--restaurant-ink); }
+.product-tile .product-price-row > div:last-child { max-width: 100%; }
+.app-nav {
+  background: rgba(255,255,252,0.97); border-color: var(--restaurant-border);
+  box-shadow: 0 -4px 20px rgba(24,60,45,0.045);
+}
+.app-nav .nav-item { min-height: 54px; border: 0; background: transparent; color: var(--restaurant-muted); }
+.app-nav .nav-item[aria-current="page"] { background: #edf5ec; color: #18552f; }
+.app-nav .nav-item > div { font-size: 11px; line-height: 16px; }
+.app-nav .nav-item[aria-current="page"] > div { font-weight: 700; }
+.app-search input { border: 1px solid var(--restaurant-border); background: #fff; border-radius: 14px; box-shadow: 0 2px 8px rgba(24,60,45,0.03); }
+.btn-primary { border-radius: 14px; box-shadow: 0 4px 12px rgba(33,108,59,0.16); }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 3px solid #5b9d71; outline-offset: 3px;
+}
+@media (hover: hover) and (pointer: fine) {
+  .product-tile:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(24,60,45,0.1); }
+  .app-nav .nav-item:hover { background: #f1f5ee; }
+}
+@media (max-width: 360px) {
+  .product-tile { padding: 8px; border-radius: 16px; }
+  .product-tile .product-price { font-size: 16px; }
+  .home-page .heading_serif { font-size: 22px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

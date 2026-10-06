@@ -1,0 +1,17 @@
+{
+  "framework": "react-typescript",
+  "cssPreProcessor": "scss",
+  "includeTailwind": true,
+  "package": "zmp-ui",
+  "stateManagement": "zustand",
+  "newProject": true,
+  "template": "single-view",
+  "theming": {
+    "customColor": true,
+    "color": "#C9A86A",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false,
+    "useUiKits": true
+  }
+}

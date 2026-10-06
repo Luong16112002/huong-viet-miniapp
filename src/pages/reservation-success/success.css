@@ -1,0 +1,29 @@
+.booking-success-page { min-height: 100%; background: linear-gradient(180deg,#f4f7f1,#faf8f2 32%,#f7f4ec); color: #294a3c; }
+.booking-success-page .booking-success { padding: 18px 10px 0; max-width: 580px; }
+.booking-success-page .booking-success-mark { position: relative; width: 58px; height: 58px; margin: 6px auto 13px; background: linear-gradient(145deg,#e9f5e8,#ddefd9); color: #27724f; font-size: 27px; box-shadow: 0 7px 20px rgba(35,112,87,.12); }
+.booking-success-page .booking-success-mark::after { content: ""; position: absolute; inset: -6px; border-radius: 50%; border: 1px solid rgba(35,112,87,.08); }
+.booking-success-page .booking-success > .booking-eyebrow { font-size: 9px; font-weight: 800; letter-spacing: 1.5px; color: #98713c; }
+.booking-success-page .booking-success h1 { margin: 5px 0 0; font-family: "Noto Serif", serif; font-size: 22px; line-height: 1.25; font-weight: 700; letter-spacing: normal; color: #173f32; }
+.booking-success-page .booking-success > p { max-width: 300px; margin: 7px auto 13px; font-size: 11px; line-height: 1.55; color: #687970; }
+.booking-success-page .booking-ticket { margin-top: 4px; padding: 14px; border-radius: 19px; background: linear-gradient(145deg,#fff,#fcfcf9); border: 1px solid rgba(23,79,61,.07); box-shadow: 0 7px 22px rgba(23,79,61,.065); }
+.booking-success-page .booking-ticket-header { gap: 10px; padding-bottom: 11px; border-bottom: 1px dashed rgba(23,79,61,.12); }
+.booking-success-page .booking-ticket-header > div { min-width: 0; }
+.booking-success-page .booking-ticket-header small { font-size: 9px; font-weight: 800; letter-spacing: .8px; color: #687970; }
+.booking-success-page .booking-ticket-header strong { margin-top: 4px; font-size: 15px; font-weight: 800; letter-spacing: .5px; color: #174f3d; overflow-wrap: anywhere; }
+.booking-success-page .booking-status { flex-shrink: 0; padding: 6px 9px; border-radius: 999px; background: #fff3d8; border: 1px solid rgba(188,139,54,.12); color: #91601a; font-size: 10px; font-weight: 800; }
+.booking-success-page .booking-status::before { content: ""; display: inline-block; width: 5px; height: 5px; margin-right: 5px; border-radius: 50%; background: currentColor; vertical-align: middle; }
+.booking-success-page .booking-status[data-status="confirmed"],.booking-success-page .booking-status[data-status="completed"] { background: #eaf4ee; color: #237057; }
+.booking-success-page .booking-status[data-status="cancelled"],.booking-success-page .booking-status[data-status="noShow"] { background: #fcedea; color: #a65344; }
+.booking-success-page .booking-ticket dl { margin: 0; padding-top: 9px; }
+.booking-success-page .booking-ticket dl > div { min-height: 29px; display: grid; grid-template-columns: 88px minmax(0,1fr); gap: 10px; align-items: center; padding: 3px 0; border: 0; }
+.booking-success-page .booking-ticket dt { font-size: 11px; font-weight: 500; color: #687970; }
+.booking-success-page .booking-ticket dd { margin: 0; text-align: right; font-size: 12px; line-height: 1.4; font-weight: 700; color: #294a3c; overflow-wrap: anywhere; }
+.booking-success-page .booking-ticket dl > div:nth-child(2) dd { justify-self: end; padding: 4px 7px; border-radius: 7px; background: #eff6f2; color: #176047; font-weight: 800; }
+.booking-success-page .booking-note { margin-top: 10px; padding: 10px; }
+.booking-success-page .booking-notice { margin: 10px 0; min-height: 42px; padding: 8px 12px; display: flex; align-items: center; justify-content: center; gap: 7px; border-radius: 13px; background: linear-gradient(135deg,#fff9eb,#fffdf7); border: 1px solid rgba(184,138,73,.15); color: #82673f; font-size: 11px; font-weight: 600; line-height: 1.5; box-shadow: none; }
+.booking-success-page .booking-notice svg { flex-shrink: 0; }
+.booking-success-page .booking-actions { position: sticky; bottom: 0; z-index: 50; display: grid; grid-template-columns: 74px minmax(0,1fr); gap: 8px; margin: 10px -10px 0; padding: 9px 10px calc(9px + env(safe-area-inset-bottom,0px)); background: rgba(250,248,242,.96); backdrop-filter: blur(16px); border-top: 1px solid rgba(23,79,61,.06); box-shadow: 0 -6px 18px rgba(23,79,61,.055); }
+.booking-success-page .booking-actions button { height: 46px; min-height: 46px; border-radius: 13px; padding: 0 8px; font-size: 12px; font-weight: 800; }
+.booking-success-page .booking-actions .booking-secondary { background: white; color: #436357; border: 1px solid rgba(23,79,61,.09); font-size: 10px; }
+.booking-success-page .booking-actions .booking-primary { background: linear-gradient(135deg,#154d3b,#1d6a4f); color: white; box-shadow: 0 5px 14px rgba(23,79,61,.17); }
+.app-shell:has(.booking-success-page) > .chef-float-button:not(.is-dragging) { top: auto !important; left: auto !important; right: max(12px,calc((100vw - 430px)/2 + 12px)) !important; bottom: calc(72px + env(safe-area-inset-bottom,0px)) !important; width: 40px; height: 40px; border-radius: 13px; }

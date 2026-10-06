@@ -1,0 +1,1438 @@
+[
+  {
+    "id": 21,
+    "name": "Phở gà",
+    "ingredients": [
+      "Gà xé",
+      "Nước dùng",
+      "Hành lá",
+      "Rau thơm"
+    ],
+    "ingredientsEvidence": "Phở gà xé với nước dùng thanh ngọt, hành lá và rau thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 22,
+    "name": "Bò xào nấm",
+    "ingredients": [
+      "Thịt bò",
+      "Nấm tươi",
+      "Hành tây",
+      "Rau củ"
+    ],
+    "ingredientsEvidence": "Thịt bò mềm xào nấm tươi, hành tây và rau củ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 23,
+    "name": "Cháo gà nấm hương",
+    "ingredients": [
+      "Cháo",
+      "Gà",
+      "Nấm hương",
+      "Hành lá",
+      "Tiêu"
+    ],
+    "ingredientsEvidence": "Cháo gà nóng hổi với nấm hương, hành lá và tiêu.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 24,
+    "name": "Cơm chiên hải sản",
+    "ingredients": [
+      "Cơm",
+      "Tôm",
+      "Mực",
+      "Trứng",
+      "Rau củ"
+    ],
+    "ingredientsEvidence": "Cơm chiên tơi hạt với tôm, mực, trứng và rau củ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 25,
+    "name": "Nem nướng",
+    "ingredients": [
+      "Nem nướng",
+      "Rau sống",
+      "Nước chấm"
+    ],
+    "ingredientsEvidence": "Nem nướng thơm lừng, ăn cùng rau sống và nước chấm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 26,
+    "name": "Bánh mì gà nướng",
+    "ingredients": [
+      "Bánh mì",
+      "Gà nướng",
+      "Dưa leo",
+      "Đồ chua"
+    ],
+    "ingredientsEvidence": "Bánh mì giòn với gà nướng, dưa leo và đồ chua.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 27,
+    "name": "Bạc xỉu",
+    "ingredients": [
+      "Cà phê",
+      "Sữa",
+      "Đá viên"
+    ],
+    "ingredientsEvidence": "Cà phê sữa dịu nhẹ, thơm béo, dùng cùng đá viên.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 28,
+    "name": "Trà đào cam sả",
+    "ingredients": [
+      "Trà đào",
+      "Cam tươi",
+      "Hương sả"
+    ],
+    "ingredientsEvidence": "Trà đào thanh mát với cam tươi và hương sả.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 29,
+    "name": "Nước ép cam",
+    "ingredients": [
+      "Cam tươi"
+    ],
+    "ingredientsEvidence": "Cam tươi ép nguyên chất, vị chua ngọt tự nhiên.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 30,
+    "name": "Soda chanh",
+    "ingredients": [
+      "Soda",
+      "Chanh tươi",
+      "Lá bạc hà"
+    ],
+    "ingredientsEvidence": "Soda mát lạnh với chanh tươi và lá bạc hà.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 31,
+    "name": "Chè hạt sen",
+    "ingredients": [
+      "Hạt sen",
+      "Đường phèn"
+    ],
+    "ingredientsEvidence": "Hạt sen mềm bùi nấu đường phèn, vị ngọt thanh.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 32,
+    "name": "Sữa chua nếp cẩm",
+    "ingredients": [
+      "Sữa chua",
+      "Nếp cẩm"
+    ],
+    "ingredientsEvidence": "Sữa chua mát lạnh kết hợp nếp cẩm dẻo thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 1,
+    "name": "Bò nướng lá lốt",
+    "ingredients": [
+      "Thịt bò",
+      "Lá lốt",
+      "Rượu đắng (dùng kèm)",
+      "Nước mắm chấm đặc biệt"
+    ],
+    "ingredientsEvidence": "Thịt bò tươi ngon, cuốn lá lốt, nướng trên than hoa, kèm rượu đắng và nước mắm chấm đặc biệt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 2,
+    "name": "Gỏi cuốn",
+    "ingredients": [
+      "Tôm",
+      "Thịt",
+      "Rau sống",
+      "Bún tươi",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsEvidence": "Gỏi cuốn tươi mát với tôm thịt, rau sống và bún tươi, chấm nước mắm chua ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 3,
+    "name": "Cá kho tộ",
+    "ingredients": [
+      "Cá",
+      "Tiêu",
+      "Ớt",
+      "Cơm trắng (dùng kèm)"
+    ],
+    "ingredientsEvidence": "Cá kho tộ đậm đà hương vị, thơm lừng tiêu và ớt, ăn kèm cơm trắng nóng hổi.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 4,
+    "name": "Phở bò",
+    "ingredients": [
+      "Nước dùng xương ống",
+      "Thịt bò tái",
+      "Rau thơm"
+    ],
+    "ingredientsEvidence": "Phở bò truyền thống với nước dùng xương ống đậm đà, thịt bò tái và rau thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 5,
+    "name": "Canh chua cá",
+    "ingredients": [
+      "Cá lóc",
+      "Đậu bắp",
+      "Cà chua",
+      "Rau thơm"
+    ],
+    "ingredientsEvidence": "Canh chua cá lóc miền Nam chua ngọt vừa ăn, kèm đậu bắp, cà chua và rau thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 6,
+    "name": "Bún chả",
+    "ingredients": [
+      "Chả nướng",
+      "Nước mắm chua ngọt",
+      "Rau sống"
+    ],
+    "ingredientsEvidence": "Bún chả Hà Nội truyền thống với chả nướng thơm lừng, nước mắm chua ngọt và rau sống.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 7,
+    "name": "Chả giò",
+    "ingredients": [
+      "Thịt",
+      "Rau củ",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsEvidence": "Chả giò (nem rán) giòn rụm, nhân thịt và rau củ, chấm nước mắm chua ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 8,
+    "name": "Cà phê sữa đá",
+    "ingredients": [
+      "Cà phê Robusta",
+      "Sữa",
+      "Đá"
+    ],
+    "ingredientsEvidence": "Cà phê sữa đá thơm béo, đậm đà hương vị cà phê Robusta Việt Nam.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 9,
+    "name": "Sinh tố bơ",
+    "ingredients": [
+      "Bơ sáp",
+      "Sữa đặc",
+      "Đá"
+    ],
+    "ingredientsEvidence": "Sinh tố bơ tươi ngon, thơm béo từ bơ sáp, xay nhuyễn với sữa đặc và đá.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 10,
+    "name": "Bánh mì thịt",
+    "ingredients": [
+      "Bánh mì",
+      "Thịt nguội",
+      "Pate",
+      "Chả lụa",
+      "Dưa leo",
+      "Cà chua",
+      "Rau mùi",
+      "Đồ chua"
+    ],
+    "ingredientsEvidence": "Bánh mì thịt nguội kẹp pate, chả lụa, dưa leo, cà chua, rau mùi và đồ chua.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 11,
+    "name": "Bún bò Huế",
+    "ingredients": [
+      "Nước dùng",
+      "Thịt bò",
+      "Giò heo",
+      "Chả cua"
+    ],
+    "ingredientsEvidence": "Bún bò Huế đặc sản miền Trung, nước dùng đậm đà, thịt bò, giò heo và chả cua.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 12,
+    "name": "Trà đá",
+    "ingredients": [
+      "Trà",
+      "Đá viên"
+    ],
+    "ingredientsEvidence": "Trà đá thơm mát, giải nhiệt ngày hè, uống kèm đá viên lạnh.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 13,
+    "name": "Bò nướng than",
+    "ingredients": [
+      "Thịt bò Mỹ",
+      "Muối tiêu",
+      "Rượu đắng Quảng Bình (dùng kèm)"
+    ],
+    "ingredientsEvidence": "Thịt bò Mỹ nướng than hoa, mềm thơm, chấm muối tiêu và rượu đắng Quảng Bình.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 14,
+    "name": "Thịt kho tàu",
+    "ingredients": [
+      "Thịt ba chỉ",
+      "Trứng vịt",
+      "Cơm trắng (dùng kèm)"
+    ],
+    "ingredientsEvidence": "Thịt kho tàu đậm đà với thịt ba chỉ mềm và trứng vịt, ăn kèm cơm trắng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 15,
+    "name": "Cơm tấm sườn nướng",
+    "ingredients": [
+      "Cơm tấm",
+      "Sườn nướng",
+      "Bì",
+      "Chả trứng",
+      "Dưa leo",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsEvidence": "Cơm tấm Sài Gòn với sườn nướng, bì, chả trứng, dưa leo và nước mắm chua ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 16,
+    "name": "Rau muống xào tỏi",
+    "ingredients": [
+      "Rau muống",
+      "Tỏi"
+    ],
+    "ingredientsEvidence": "Rau muống xào tỏi giòn ngọt, thơm tỏi phi vàng, món rau dân dã Việt Nam.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 17,
+    "name": "Chè ba màu",
+    "ingredients": [
+      "Đậu đỏ",
+      "Đậu xanh",
+      "Sương sáo",
+      "Dừa nướng",
+      "Nước cốt dừa"
+    ],
+    "ingredientsEvidence": "Chè ba màu đậu đỏ, đậu xanh, sương sáo thơm béo, kèm dừa nướng và nước cốt dừa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 18,
+    "name": "Bánh flan caramel",
+    "ingredients": [
+      "Caramel",
+      "Vani",
+      "Trứng"
+    ],
+    "ingredientsEvidence": "Bánh flan caramel mềm mịn, thơm mùi vani và trứng, dùng kèm caramel đắng nhẹ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 19,
+    "name": "Nước mía đường",
+    "ingredients": [
+      "Mía",
+      "Đường thốt nốt",
+      "Đá viên"
+    ],
+    "ingredientsEvidence": "Nước mía đường thốt nốt, vắt mía tươi ngon, thêm đá viên lạnh giải nhiệt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 20,
+    "name": "Gỏi gà",
+    "ingredients": [
+      "Gà",
+      "Bắp cải",
+      "Nước mắm chua ngọt",
+      "Ớt",
+      "Hành phi"
+    ],
+    "ingredientsEvidence": "Gỏi gà bắp cải trộn nước mắm chua ngọt, thêm ớt và hành phi thơm lừng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 33,
+    "name": "Bò nướng sa tế",
+    "ingredients": [
+      "Thịt bò",
+      "Sa tế",
+      "Đậu bắp"
+    ],
+    "ingredientsEvidence": "Thịt bò ướp sa tế, nướng thơm cùng đậu bắp.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 34,
+    "name": "Sườn nướng mật ong",
+    "ingredients": [
+      "Sườn heo",
+      "Sốt mật ong",
+      "Rau củ (dùng kèm)"
+    ],
+    "ingredientsEvidence": "Sườn heo nướng sốt mật ong, dùng kèm rau củ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 35,
+    "name": "Gà nướng muối ớt",
+    "ingredients": [
+      "Gà",
+      "Muối",
+      "Ớt"
+    ],
+    "ingredientsEvidence": "Gà nướng da vàng, ướp muối ớt cay nhẹ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 36,
+    "name": "Tôm nướng muối ớt",
+    "ingredients": [
+      "Tôm",
+      "Muối",
+      "Ớt",
+      "Chanh",
+      "Rau thơm"
+    ],
+    "ingredientsEvidence": "Tôm nướng muối ớt, ăn cùng chanh và rau thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 37,
+    "name": "Mực nướng sa tế",
+    "ingredients": [
+      "Mực",
+      "Sa tế",
+      "Dưa leo"
+    ],
+    "ingredientsEvidence": "Mực nướng sa tế thơm cay, kèm dưa leo.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 38,
+    "name": "Ba chỉ nướng sả",
+    "ingredients": [
+      "Ba chỉ",
+      "Sả"
+    ],
+    "ingredientsEvidence": "Ba chỉ ướp sả, nướng cạnh vàng thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 39,
+    "name": "Tôm rim mặn ngọt",
+    "ingredients": [
+      "Tôm",
+      "Nước mắm",
+      "Đường"
+    ],
+    "ingredientsEvidence": "Tôm rim nước mắm và đường, vị mặn ngọt hài hòa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 40,
+    "name": "Cá bống kho tiêu",
+    "ingredients": [
+      "Cá bống",
+      "Tiêu"
+    ],
+    "ingredientsEvidence": "Cá bống kho tiêu đậm đà trong niêu.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 41,
+    "name": "Gà kho gừng",
+    "ingredients": [
+      "Gà",
+      "Gừng tươi",
+      "Nước kho"
+    ],
+    "ingredientsEvidence": "Gà kho gừng tươi, nước kho sánh thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 42,
+    "name": "Sườn rim nước dừa",
+    "ingredients": [
+      "Sườn",
+      "Nước dừa"
+    ],
+    "ingredientsEvidence": "Sườn rim nước dừa mềm, vị ngọt dịu.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 43,
+    "name": "Đậu hũ kho nấm",
+    "ingredients": [
+      "Đậu hũ",
+      "Nấm",
+      "Nước tương"
+    ],
+    "ingredientsEvidence": "Đậu hũ kho cùng nấm và nước tương.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 44,
+    "name": "Thịt kho tiêu",
+    "ingredients": [
+      "Thịt heo",
+      "Tiêu",
+      "Cơm (dùng kèm)"
+    ],
+    "ingredientsEvidence": "Thịt heo kho tiêu, ăn kèm cơm nóng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 45,
+    "name": "Bún riêu cua",
+    "ingredients": [
+      "Bún",
+      "Riêu cua",
+      "Cà chua",
+      "Đậu hũ",
+      "Rau sống"
+    ],
+    "ingredientsEvidence": "Bún riêu cua, cà chua, đậu hũ và rau sống.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 46,
+    "name": "Bún thịt nướng",
+    "ingredients": [
+      "Bún tươi",
+      "Thịt nướng",
+      "Rau",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsEvidence": "Bún tươi với thịt nướng, rau và nước mắm chua ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 47,
+    "name": "Phở bò viên",
+    "ingredients": [
+      "Nước dùng bò",
+      "Bò viên",
+      "Hành"
+    ],
+    "ingredientsEvidence": "Phở nước dùng bò, bò viên và hành thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 48,
+    "name": "Bún măng vịt",
+    "ingredients": [
+      "Bún",
+      "Thịt vịt",
+      "Măng",
+      "Nước dùng"
+    ],
+    "ingredientsEvidence": "Bún với thịt vịt, măng và nước dùng thanh.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 49,
+    "name": "Mực xào chua ngọt",
+    "ingredients": [
+      "Mực",
+      "Dứa",
+      "Cà chua",
+      "Hành tây"
+    ],
+    "ingredientsEvidence": "Mực xào dứa, cà chua và hành tây.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 50,
+    "name": "Bò lúc lắc",
+    "ingredients": [
+      "Bò",
+      "Ớt chuông",
+      "Hành tây"
+    ],
+    "ingredientsEvidence": "Bò áp chảo cùng ớt chuông và hành tây.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 51,
+    "name": "Miến xào hải sản",
+    "ingredients": [
+      "Miến",
+      "Tôm",
+      "Mực",
+      "Rau củ"
+    ],
+    "ingredientsEvidence": "Miến xào tôm mực và rau củ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 52,
+    "name": "Nấm xào rau củ",
+    "ingredients": [
+      "Nấm tươi",
+      "Bông cải",
+      "Cà rốt"
+    ],
+    "ingredientsEvidence": "Nấm tươi xào cùng bông cải và cà rốt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 53,
+    "name": "Bông cải xào tỏi",
+    "ingredients": [
+      "Bông cải xanh",
+      "Tỏi"
+    ],
+    "ingredientsEvidence": "Bông cải xanh xào tỏi, giòn ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 54,
+    "name": "Mì xào bò",
+    "ingredients": [
+      "Mì",
+      "Thịt bò",
+      "Cải xanh",
+      "Hành tây"
+    ],
+    "ingredientsEvidence": "Mì xào thịt bò, cải xanh và hành tây.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 55,
+    "name": "Canh bí đỏ thịt bằm",
+    "ingredients": [
+      "Bí đỏ",
+      "Thịt bằm"
+    ],
+    "ingredientsEvidence": "Bí đỏ mềm ngọt nấu cùng thịt bằm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 56,
+    "name": "Canh rau ngót thịt bằm",
+    "ingredients": [
+      "Rau ngót",
+      "Thịt bằm"
+    ],
+    "ingredientsEvidence": "Rau ngót nấu thịt bằm, nước canh thanh.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 57,
+    "name": "Canh khổ qua nhồi thịt",
+    "ingredients": [
+      "Khổ qua",
+      "Thịt",
+      "Nấm mèo"
+    ],
+    "ingredientsEvidence": "Khổ qua nhồi thịt và nấm mèo, hầm mềm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 58,
+    "name": "Cháo hải sản",
+    "ingredients": [
+      "Cháo",
+      "Tôm",
+      "Mực",
+      "Hành lá"
+    ],
+    "ingredientsEvidence": "Cháo nóng với tôm mực và hành lá.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 59,
+    "name": "Cháo sườn",
+    "ingredients": [
+      "Cháo",
+      "Sườn",
+      "Tiêu",
+      "Hành"
+    ],
+    "ingredientsEvidence": "Cháo sườn hầm mềm, dùng cùng tiêu và hành.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 60,
+    "name": "Súp cua",
+    "ingredients": [
+      "Cua",
+      "Trứng",
+      "Ngô"
+    ],
+    "ingredientsEvidence": "Súp cua với trứng và ngô, dùng nóng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 61,
+    "name": "Cơm gà xối mỡ",
+    "ingredients": [
+      "Cơm",
+      "Gà",
+      "Dưa leo"
+    ],
+    "ingredientsEvidence": "Cơm với gà da giòn và dưa leo.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 62,
+    "name": "Cơm bò lúc lắc",
+    "ingredients": [
+      "Cơm trắng",
+      "Bò lúc lắc",
+      "Rau củ"
+    ],
+    "ingredientsEvidence": "Cơm trắng ăn cùng bò lúc lắc và rau củ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 63,
+    "name": "Cơm chiên Dương Châu",
+    "ingredients": [
+      "Cơm",
+      "Trứng",
+      "Tôm",
+      "Lạp xưởng",
+      "Rau củ"
+    ],
+    "ingredientsEvidence": "Cơm chiên trứng, tôm, lạp xưởng và rau củ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 64,
+    "name": "Cơm cá kho tộ",
+    "ingredients": [
+      "Cơm trắng",
+      "Cá kho tộ",
+      "Rau luộc"
+    ],
+    "ingredientsEvidence": "Cơm trắng với cá kho tộ và rau luộc.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 65,
+    "name": "Cơm sườn bì chả",
+    "ingredients": [
+      "Cơm tấm",
+      "Sườn nướng",
+      "Bì",
+      "Chả trứng"
+    ],
+    "ingredientsEvidence": "Cơm tấm, sườn nướng, bì và chả trứng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 66,
+    "name": "Cơm chiên rau củ",
+    "ingredients": [
+      "Cơm",
+      "Ngô",
+      "Đậu Hà Lan",
+      "Cà rốt"
+    ],
+    "ingredientsEvidence": "Cơm chiên cùng ngô, đậu Hà Lan và cà rốt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 67,
+    "name": "Gỏi ngó sen tôm thịt",
+    "ingredients": [
+      "Ngó sen",
+      "Tôm",
+      "Thịt",
+      "Rau răm"
+    ],
+    "ingredientsEvidence": "Ngó sen giòn, tôm thịt và rau răm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 68,
+    "name": "Gỏi xoài khô cá",
+    "ingredients": [
+      "Xoài xanh",
+      "Khô cá",
+      "Rau thơm",
+      "Nước mắm"
+    ],
+    "ingredientsEvidence": "Xoài xanh trộn khô cá, rau thơm và nước mắm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 69,
+    "name": "Gỏi bò bóp thấu",
+    "ingredients": [
+      "Thịt bò",
+      "Chuối chát",
+      "Khế",
+      "Rau thơm"
+    ],
+    "ingredientsEvidence": "Thịt bò trộn chuối chát, khế và rau thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 70,
+    "name": "Gỏi đu đủ tôm",
+    "ingredients": [
+      "Đu đủ",
+      "Tôm",
+      "Nước trộn chua ngọt"
+    ],
+    "ingredientsEvidence": "Đu đủ bào, tôm và nước trộn chua ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 71,
+    "name": "Đậu hũ chiên sả",
+    "ingredients": [
+      "Đậu hũ",
+      "Sả"
+    ],
+    "ingredientsEvidence": "Đậu hũ chiên vàng, áo sả thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 72,
+    "name": "Bắp xào tôm khô",
+    "ingredients": [
+      "Bắp ngọt",
+      "Tôm khô",
+      "Hành lá"
+    ],
+    "ingredientsEvidence": "Bắp ngọt xào tôm khô và hành lá.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 73,
+    "name": "Chả giò hải sản",
+    "ingredients": [
+      "Tôm",
+      "Mực"
+    ],
+    "ingredientsEvidence": "Chả giò giòn với nhân tôm mực.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 74,
+    "name": "Chả giò chay",
+    "ingredients": [
+      "Rau củ",
+      "Nấm",
+      "Miến"
+    ],
+    "ingredientsEvidence": "Chả giò nhân rau củ, nấm và miến.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 75,
+    "name": "Nem lụi Huế",
+    "ingredients": [
+      "Nem lụi",
+      "Sả",
+      "Rau",
+      "Bánh tráng"
+    ],
+    "ingredientsEvidence": "Nem lụi nướng sả, dùng kèm rau và bánh tráng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 76,
+    "name": "Nem cua bể",
+    "ingredients": [
+      "Cua",
+      "Thịt",
+      "Miến"
+    ],
+    "ingredientsEvidence": "Nem vuông nhân cua, thịt và miến.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 77,
+    "name": "Chả ram tôm đất",
+    "ingredients": [
+      "Tôm đất"
+    ],
+    "ingredientsEvidence": "Chả ram cuốn tôm đất, chiên giòn.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 78,
+    "name": "Nem chua rán",
+    "ingredients": [
+      "Nem chua",
+      "Sốt chấm"
+    ],
+    "ingredientsEvidence": "Nem chua rán vàng, dùng cùng sốt chấm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 79,
+    "name": "Bánh mì bò nướng",
+    "ingredients": [
+      "Bánh mì",
+      "Bò nướng",
+      "Đồ chua",
+      "Rau mùi"
+    ],
+    "ingredientsEvidence": "Bánh mì bò nướng với đồ chua và rau mùi.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 80,
+    "name": "Bánh mì xíu mại",
+    "ingredients": [
+      "Bánh mì",
+      "Xíu mại",
+      "Sốt cà chua"
+    ],
+    "ingredientsEvidence": "Bánh mì ăn cùng xíu mại sốt cà chua.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 81,
+    "name": "Bánh mì trứng ốp la",
+    "ingredients": [
+      "Bánh mì",
+      "Trứng",
+      "Dưa leo"
+    ],
+    "ingredientsEvidence": "Bánh mì giòn với trứng ốp la và dưa leo.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 82,
+    "name": "Bánh mì chả lụa",
+    "ingredients": [
+      "Bánh mì",
+      "Chả lụa",
+      "Pate",
+      "Đồ chua"
+    ],
+    "ingredientsEvidence": "Bánh mì chả lụa, pate và đồ chua.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 83,
+    "name": "Bánh mì heo quay",
+    "ingredients": [
+      "Bánh mì",
+      "Heo quay",
+      "Nước sốt"
+    ],
+    "ingredientsEvidence": "Bánh mì heo quay giòn da và nước sốt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 84,
+    "name": "Bánh mì nấm chay",
+    "ingredients": [
+      "Bánh mì",
+      "Nấm",
+      "Rau",
+      "Sốt chay"
+    ],
+    "ingredientsEvidence": "Bánh mì nhân nấm, rau và sốt chay.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 85,
+    "name": "Cà phê đen đá",
+    "ingredients": [
+      "Cà phê đen",
+      "Đá"
+    ],
+    "ingredientsEvidence": "Cà phê đen đậm vị, phục vụ cùng đá.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 86,
+    "name": "Cà phê đen nóng",
+    "ingredients": [
+      "Cà phê đen"
+    ],
+    "ingredientsEvidence": "Cà phê đen pha nóng, hương thơm đậm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 87,
+    "name": "Cà phê sữa nóng",
+    "ingredients": [
+      "Cà phê",
+      "Sữa đặc"
+    ],
+    "ingredientsEvidence": "Cà phê nóng kết hợp sữa đặc.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 88,
+    "name": "Cà phê muối",
+    "ingredients": [
+      "Cà phê",
+      "Kem muối"
+    ],
+    "ingredientsEvidence": "Cà phê phủ kem muối béo nhẹ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 89,
+    "name": "Cà phê dừa",
+    "ingredients": [
+      "Cà phê",
+      "Cốt dừa",
+      "Đá"
+    ],
+    "ingredientsEvidence": "Cà phê kết hợp cốt dừa và đá xay.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 90,
+    "name": "Cà phê trứng",
+    "ingredients": [
+      "Cà phê",
+      "Kem trứng"
+    ],
+    "ingredientsEvidence": "Cà phê nóng phủ lớp kem trứng đánh bông.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 91,
+    "name": "Trà vải",
+    "ingredients": [
+      "Trà",
+      "Vải",
+      "Đá viên"
+    ],
+    "ingredientsEvidence": "Trà thơm với vải ngọt và đá viên.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 92,
+    "name": "Trà chanh",
+    "ingredients": [
+      "Trà",
+      "Chanh"
+    ],
+    "ingredientsEvidence": "Trà chanh thanh mát, chua ngọt nhẹ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 93,
+    "name": "Trà tắc mật ong",
+    "ingredients": [
+      "Trà",
+      "Tắc",
+      "Mật ong"
+    ],
+    "ingredientsEvidence": "Trà tắc pha mật ong, thơm dịu.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 94,
+    "name": "Trà sen",
+    "ingredients": [
+      "Trà hương sen"
+    ],
+    "ingredientsEvidence": "Trà hương sen thanh nhẹ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 95,
+    "name": "Trà gừng mật ong",
+    "ingredients": [
+      "Trà",
+      "Gừng",
+      "Mật ong"
+    ],
+    "ingredientsEvidence": "Trà gừng ấm với mật ong.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 96,
+    "name": "Trà lài chanh dây",
+    "ingredients": [
+      "Trà lài",
+      "Chanh dây"
+    ],
+    "ingredientsEvidence": "Trà lài kết hợp chanh dây thơm chua.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 97,
+    "name": "Sinh tố xoài",
+    "ingredients": [
+      "Xoài chín",
+      "Sữa",
+      "Đá"
+    ],
+    "ingredientsEvidence": "Xoài chín xay sữa và đá.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 98,
+    "name": "Sinh tố dâu",
+    "ingredients": [
+      "Dâu tây",
+      "Sữa"
+    ],
+    "ingredientsEvidence": "Dâu tây xay cùng sữa, vị chua ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 99,
+    "name": "Sinh tố mãng cầu",
+    "ingredients": [
+      "Mãng cầu",
+      "Sữa"
+    ],
+    "ingredientsEvidence": "Mãng cầu xay sữa, thơm mát.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 100,
+    "name": "Nước ép dưa hấu",
+    "ingredients": [
+      "Dưa hấu"
+    ],
+    "ingredientsEvidence": "Dưa hấu ép tươi, ngọt mát.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 101,
+    "name": "Nước ép dứa",
+    "ingredients": [
+      "Dứa"
+    ],
+    "ingredientsEvidence": "Dứa ép tươi, vị chua ngọt.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 102,
+    "name": "Nước ép ổi",
+    "ingredients": [
+      "Ổi"
+    ],
+    "ingredientsEvidence": "Ổi tươi ép, hương thơm dịu.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 103,
+    "name": "Soda chanh dây",
+    "ingredients": [
+      "Soda",
+      "Chanh dây",
+      "Đá viên"
+    ],
+    "ingredientsEvidence": "Soda chanh dây với đá viên.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 104,
+    "name": "Soda dâu",
+    "ingredients": [
+      "Soda dâu"
+    ],
+    "ingredientsEvidence": "Soda dâu chua ngọt, mát lạnh.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 105,
+    "name": "Nước dừa tươi",
+    "ingredients": [
+      "Nước dừa tươi"
+    ],
+    "ingredientsEvidence": "Nước dừa tươi thanh mát.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 106,
+    "name": "Nước sâm",
+    "ingredients": [
+      "Nước sâm thảo mộc"
+    ],
+    "ingredientsEvidence": "Nước sâm thảo mộc, vị ngọt nhẹ.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 107,
+    "name": "Nước suối",
+    "ingredients": [
+      "Nước uống đóng chai"
+    ],
+    "ingredientsEvidence": "Nước uống đóng chai.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 108,
+    "name": "Nước chanh tươi",
+    "ingredients": [
+      "Chanh tươi",
+      "Đường",
+      "Đá"
+    ],
+    "ingredientsEvidence": "Chanh tươi pha đường và đá.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 109,
+    "name": "Chè bưởi",
+    "ingredients": [
+      "Cùi bưởi",
+      "Đậu xanh",
+      "Nước cốt dừa"
+    ],
+    "ingredientsEvidence": "Cùi bưởi giòn, đậu xanh và nước cốt dừa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 110,
+    "name": "Chè Thái",
+    "ingredients": [
+      "Mít",
+      "Thạch",
+      "Trái cây",
+      "Sữa dừa"
+    ],
+    "ingredientsEvidence": "Mít, thạch và trái cây trong sữa dừa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 111,
+    "name": "Chè đậu đỏ",
+    "ingredients": [
+      "Đậu đỏ",
+      "Nước cốt dừa"
+    ],
+    "ingredientsEvidence": "Đậu đỏ nấu mềm, thêm nước cốt dừa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 112,
+    "name": "Chè khoai dẻo",
+    "ingredients": [
+      "Khoai dẻo",
+      "Thạch",
+      "Nước cốt dừa"
+    ],
+    "ingredientsEvidence": "Khoai dẻo, thạch và nước cốt dừa thơm béo.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 113,
+    "name": "Chè trôi nước",
+    "ingredients": [
+      "Nếp",
+      "Đậu xanh",
+      "Nước đường gừng"
+    ],
+    "ingredientsEvidence": "Viên nếp nhân đậu xanh trong nước đường gừng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 114,
+    "name": "Chè chuối",
+    "ingredients": [
+      "Chuối",
+      "Nước cốt dừa",
+      "Bột báng"
+    ],
+    "ingredientsEvidence": "Chuối nấu nước cốt dừa và bột báng.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 115,
+    "name": "Bánh da lợn",
+    "ingredients": [
+      "Lá dứa",
+      "Đậu xanh"
+    ],
+    "ingredientsEvidence": "Bánh hấp lá dứa và đậu xanh, dẻo thơm.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 116,
+    "name": "Bánh chuối hấp",
+    "ingredients": [
+      "Chuối",
+      "Nước cốt dừa"
+    ],
+    "ingredientsEvidence": "Bánh chuối hấp, dùng cùng nước cốt dừa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 117,
+    "name": "Rau câu dừa",
+    "ingredients": [
+      "Rau câu dừa"
+    ],
+    "ingredientsEvidence": "Rau câu dừa mát lạnh, mềm giòn.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 118,
+    "name": "Sữa chua trái cây",
+    "ingredients": [
+      "Sữa chua",
+      "Trái cây theo mùa"
+    ],
+    "ingredientsEvidence": "Sữa chua dùng cùng trái cây theo mùa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 119,
+    "name": "Kem dừa",
+    "ingredients": [
+      "Kem dừa",
+      "Dừa sấy"
+    ],
+    "ingredientsEvidence": "Kem dừa mát lạnh với dừa sấy.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  },
+  {
+    "id": 120,
+    "name": "Trái cây theo mùa",
+    "ingredients": [
+      "Trái cây theo mùa"
+    ],
+    "ingredientsEvidence": "Đĩa trái cây tươi chọn theo mùa.",
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false
+  }
+]

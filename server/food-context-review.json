@@ -1,0 +1,1873 @@
+{
+  "note": "Các trường chưa có dữ liệu cần nhà hàng bổ sung; mảng rỗng không chứng minh an toàn dị ứng.",
+  "total": 128,
+  "items": [
+    {
+      "id": 21,
+      "name": "Phở gà",
+      "missing": [
+        "notSuitableFor"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 22,
+      "name": "Bò xào nấm",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 23,
+      "name": "Cháo gà nấm hương",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 24,
+      "name": "Cơm chiên hải sản",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 25,
+      "name": "Nem nướng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 26,
+      "name": "Bánh mì gà nướng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 27,
+      "name": "Bạc xỉu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 28,
+      "name": "Trà đào cam sả",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 29,
+      "name": "Nước ép cam",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 30,
+      "name": "Soda chanh",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 31,
+      "name": "Chè hạt sen",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 32,
+      "name": "Sữa chua nếp cẩm",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 1,
+      "name": "Bò nướng lá lốt",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 2,
+      "name": "Gỏi cuốn",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 3,
+      "name": "Cá kho tộ",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 4,
+      "name": "Phở bò",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 5,
+      "name": "Canh chua cá",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 6,
+      "name": "Bún chả",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 7,
+      "name": "Chả giò",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 8,
+      "name": "Cà phê sữa đá",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 9,
+      "name": "Sinh tố bơ",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 10,
+      "name": "Bánh mì thịt",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 11,
+      "name": "Bún bò Huế",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 12,
+      "name": "Trà đá",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 13,
+      "name": "Bò nướng than",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 14,
+      "name": "Thịt kho tàu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 15,
+      "name": "Cơm tấm sườn nướng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 16,
+      "name": "Rau muống xào tỏi",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 17,
+      "name": "Chè ba màu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 18,
+      "name": "Bánh flan caramel",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 19,
+      "name": "Nước mía đường",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 20,
+      "name": "Gỏi gà",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 121,
+      "name": "Lẩu nấm rau củ",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 122,
+      "name": "Lẩu Thái hải sản",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 123,
+      "name": "Lẩu bò nhúng giấm",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 124,
+      "name": "Lẩu gà lá é",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 125,
+      "name": "Lẩu cá chua cay",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 126,
+      "name": "Lẩu riêu cua bắp bò",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 127,
+      "name": "Lẩu kim chi",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 128,
+      "name": "Lẩu hải sản đặc biệt",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 33,
+      "name": "Bò nướng sa tế",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 34,
+      "name": "Sườn nướng mật ong",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 35,
+      "name": "Gà nướng muối ớt",
+      "missing": [
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 36,
+      "name": "Tôm nướng muối ớt",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 37,
+      "name": "Mực nướng sa tế",
+      "missing": [],
+      "nutritionMissing": true
+    },
+    {
+      "id": 38,
+      "name": "Ba chỉ nướng sả",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 39,
+      "name": "Tôm rim mặn ngọt",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 40,
+      "name": "Cá bống kho tiêu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 41,
+      "name": "Gà kho gừng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 42,
+      "name": "Sườn rim nước dừa",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 43,
+      "name": "Đậu hũ kho nấm",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 44,
+      "name": "Thịt kho tiêu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 45,
+      "name": "Bún riêu cua",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 46,
+      "name": "Bún thịt nướng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 47,
+      "name": "Phở bò viên",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 48,
+      "name": "Bún măng vịt",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 49,
+      "name": "Mực xào chua ngọt",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 50,
+      "name": "Bò lúc lắc",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 51,
+      "name": "Miến xào hải sản",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 52,
+      "name": "Nấm xào rau củ",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 53,
+      "name": "Bông cải xào tỏi",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 54,
+      "name": "Mì xào bò",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 55,
+      "name": "Canh bí đỏ thịt bằm",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 56,
+      "name": "Canh rau ngót thịt bằm",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 57,
+      "name": "Canh khổ qua nhồi thịt",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 58,
+      "name": "Cháo hải sản",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 59,
+      "name": "Cháo sườn",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 60,
+      "name": "Súp cua",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 61,
+      "name": "Cơm gà xối mỡ",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 62,
+      "name": "Cơm bò lúc lắc",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 63,
+      "name": "Cơm chiên Dương Châu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 64,
+      "name": "Cơm cá kho tộ",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 65,
+      "name": "Cơm sườn bì chả",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 66,
+      "name": "Cơm chiên rau củ",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 67,
+      "name": "Gỏi ngó sen tôm thịt",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 68,
+      "name": "Gỏi xoài khô cá",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 69,
+      "name": "Gỏi bò bóp thấu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 70,
+      "name": "Gỏi đu đủ tôm",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 71,
+      "name": "Đậu hũ chiên sả",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 72,
+      "name": "Bắp xào tôm khô",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 73,
+      "name": "Chả giò hải sản",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 74,
+      "name": "Chả giò chay",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 75,
+      "name": "Nem lụi Huế",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 76,
+      "name": "Nem cua bể",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 77,
+      "name": "Chả ram tôm đất",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 78,
+      "name": "Nem chua rán",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 79,
+      "name": "Bánh mì bò nướng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 80,
+      "name": "Bánh mì xíu mại",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 81,
+      "name": "Bánh mì trứng ốp la",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 82,
+      "name": "Bánh mì chả lụa",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 83,
+      "name": "Bánh mì heo quay",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 84,
+      "name": "Bánh mì nấm chay",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 85,
+      "name": "Cà phê đen đá",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 86,
+      "name": "Cà phê đen nóng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 87,
+      "name": "Cà phê sữa nóng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 88,
+      "name": "Cà phê muối",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 89,
+      "name": "Cà phê dừa",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 90,
+      "name": "Cà phê trứng",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 91,
+      "name": "Trà vải",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 92,
+      "name": "Trà chanh",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 93,
+      "name": "Trà tắc mật ong",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 94,
+      "name": "Trà sen",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 95,
+      "name": "Trà gừng mật ong",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 96,
+      "name": "Trà lài chanh dây",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 97,
+      "name": "Sinh tố xoài",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 98,
+      "name": "Sinh tố dâu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 99,
+      "name": "Sinh tố mãng cầu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 100,
+      "name": "Nước ép dưa hấu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 101,
+      "name": "Nước ép dứa",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 102,
+      "name": "Nước ép ổi",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 103,
+      "name": "Soda chanh dây",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 104,
+      "name": "Soda dâu",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 105,
+      "name": "Nước dừa tươi",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 106,
+      "name": "Nước sâm",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 107,
+      "name": "Nước suối",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 108,
+      "name": "Nước chanh tươi",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 109,
+      "name": "Chè bưởi",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 110,
+      "name": "Chè Thái",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 111,
+      "name": "Chè đậu đỏ",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 112,
+      "name": "Chè khoai dẻo",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 113,
+      "name": "Chè trôi nước",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 114,
+      "name": "Chè chuối",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 115,
+      "name": "Bánh da lợn",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 116,
+      "name": "Bánh chuối hấp",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 117,
+      "name": "Rau câu dừa",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 118,
+      "name": "Sữa chua trái cây",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 119,
+      "name": "Kem dừa",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    },
+    {
+      "id": 120,
+      "name": "Trái cây theo mùa",
+      "missing": [
+        "spicyLevel",
+        "allergens",
+        "suitableFor",
+        "notSuitableFor",
+        "customizations",
+        "servingSize",
+        "pairings",
+        "drinkPairings"
+      ],
+      "nutritionMissing": true
+    }
+  ]
+}

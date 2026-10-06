@@ -1,0 +1,848 @@
+{
+  "restaurant": {
+    "id": "restaurant-1",
+    "name": "Nhà hàng Hương Việt",
+    "shortName": "Hương Việt",
+    "type": "Nhà hàng ẩm thực Việt Nam",
+    "address": "123 Nguyễn Văn Cừ, TP. Đồng Hới, Quảng Bình",
+    "phone": "0232 123 4567",
+    "openHours": "10:00 - 22:00 (Tất cả các ngày)",
+    "description": "Không gian ấm cúng, phục vụ các món ăn truyền thống Việt Nam với nguyên liệu tươi ngon, đậm hương vị Quảng Bình. Đặc sản phải thử: Bò nướng lá lốt, Cá kho tộ, Bún chả Hà Nội và Phở bò truyền thống.",
+    "lat": 17.4778,
+    "lng": 106.6023,
+    "rating": 4.8,
+    "reviewCount": 1204,
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800"
+    ]
+  },
+  "featured": [
+    {
+      "id": 1,
+      "categoryId": "main-dish",
+      "subCategoryId": "bo-nuong",
+      "description": "Thịt bò tươi ngon, cuốn lá lốt, nướng trên than hoa, kèm rượu đắng và nước mắm chấm đặc biệt.",
+      "image": "/api/foods/1/image",
+      "name": "Bò nướng lá lốt",
+      "price": 89000,
+      "variantGroups": [],
+      "features": [
+        "bestseller"
+      ],
+      "imageUrl": "/api/foods/1/image",
+      "ingredients": [
+        "Thịt bò",
+        "Lá lốt",
+        "Rượu đắng (dùng kèm)",
+        "Nước mắm chấm đặc biệt"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Thịt bò tươi ngon, cuốn lá lốt, nướng trên than hoa, kèm rượu đắng và nước mắm chấm đặc biệt.",
+      "shortDescription": "Thịt bò tươi ngon, cuốn lá lốt, nướng trên than hoa, kèm rượu đắng và nước mắm chấm đặc biệt.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    },
+    {
+      "id": 4,
+      "categoryId": "main-dish",
+      "subCategoryId": "pho-bun",
+      "description": "Phở bò truyền thống với nước dùng xương ống đậm đà, thịt bò tái và rau thơm.",
+      "image": "/api/foods/4/image",
+      "name": "Phở bò",
+      "price": 65000,
+      "variantGroups": [],
+      "features": [
+        "bestseller"
+      ],
+      "imageUrl": "/api/foods/4/image",
+      "ingredients": [
+        "Nước dùng xương ống",
+        "Thịt bò tái",
+        "Rau thơm"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Phở bò truyền thống với nước dùng xương ống đậm đà, thịt bò tái và rau thơm.",
+      "shortDescription": "Phở bò truyền thống với nước dùng xương ống đậm đà, thịt bò tái và rau thơm.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    },
+    {
+      "id": 6,
+      "categoryId": "main-dish",
+      "subCategoryId": "pho-bun",
+      "description": "Bún chả Hà Nội truyền thống với chả nướng thơm lừng, nước mắm chua ngọt và rau sống.",
+      "image": "/api/foods/6/image",
+      "name": "Bún chả",
+      "price": 65000,
+      "variantGroups": [],
+      "features": [
+        "bestseller"
+      ],
+      "imageUrl": "/api/foods/6/image",
+      "ingredients": [
+        "Chả nướng",
+        "Nước mắm chua ngọt",
+        "Rau sống"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Bún chả Hà Nội truyền thống với chả nướng thơm lừng, nước mắm chua ngọt và rau sống.",
+      "shortDescription": "Bún chả Hà Nội truyền thống với chả nướng thơm lừng, nước mắm chua ngọt và rau sống.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    },
+    {
+      "id": 11,
+      "categoryId": "main-dish",
+      "subCategoryId": "pho-bun",
+      "description": "Bún bò Huế đặc sản miền Trung, nước dùng đậm đà, thịt bò, giò heo và chả cua.",
+      "image": "/api/foods/11/image",
+      "name": "Bún bò Huế",
+      "price": 75000,
+      "variantGroups": [],
+      "features": [
+        "bestseller",
+        "spicy"
+      ],
+      "imageUrl": "/api/foods/11/image",
+      "ingredients": [
+        "Nước dùng",
+        "Thịt bò",
+        "Giò heo",
+        "Chả cua"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Bún bò Huế đặc sản miền Trung, nước dùng đậm đà, thịt bò, giò heo và chả cua.",
+      "shortDescription": "Bún bò Huế đặc sản miền Trung, nước dùng đậm đà, thịt bò, giò heo và chả cua.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    },
+    {
+      "id": 13,
+      "categoryId": "main-dish",
+      "subCategoryId": "bo-nuong",
+      "description": "Thịt bò Mỹ nướng than hoa, mềm thơm, chấm muối tiêu và rượu đắng Quảng Bình.",
+      "image": "/api/foods/13/image",
+      "name": "Bò nướng than",
+      "price": 125000,
+      "variantGroups": [],
+      "features": [
+        "bestseller"
+      ],
+      "imageUrl": "/api/foods/13/image",
+      "ingredients": [
+        "Thịt bò Mỹ",
+        "Muối tiêu",
+        "Rượu đắng Quảng Bình (dùng kèm)"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Thịt bò Mỹ nướng than hoa, mềm thơm, chấm muối tiêu và rượu đắng Quảng Bình.",
+      "shortDescription": "Thịt bò Mỹ nướng than hoa, mềm thơm, chấm muối tiêu và rượu đắng Quảng Bình.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    },
+    {
+      "id": 122,
+      "name": "Lẩu Thái hải sản",
+      "price": 329000,
+      "description": "Nước lẩu Thái chua cay, tôm mực ngọt thịt, thơm sả.",
+      "ingredients": [
+        "Tôm",
+        "Mực",
+        "Vẹm",
+        "Cà chua",
+        "Sả",
+        "Rau cải"
+      ],
+      "spicyLevel": "Cay vừa",
+      "imageUrl": "/images/hotpot/lau-thai-hai-san.jpg",
+      "image": "/images/hotpot/lau-thai-hai-san.jpg",
+      "imageIsIllustration": true,
+      "categoryId": "main-dish",
+      "subCategoryId": "lau",
+      "features": [
+        "bestseller"
+      ],
+      "newMarked": false,
+      "variantGroups": [
+        {
+          "id": "size",
+          "title": "Size / số người",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "small",
+              "name": "Nhỏ · 2 người",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "medium",
+              "name": "Vừa · 4 người",
+              "extraPrice": 197000,
+              "defaultValue": false
+            },
+            {
+              "id": "large",
+              "name": "Lớn · 6 người",
+              "extraPrice": 395000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "spice",
+          "title": "Mức cay",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "none",
+              "name": "Không cay",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "light",
+              "name": "Cay nhẹ",
+              "extraPrice": 0,
+              "defaultValue": false
+            },
+            {
+              "id": "medium",
+              "name": "Cay vừa",
+              "extraPrice": 0,
+              "defaultValue": false
+            },
+            {
+              "id": "hot",
+              "name": "Cay nhiều",
+              "extraPrice": 0,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "broth",
+          "title": "Nước lẩu",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "original",
+              "name": "Nước lẩu Thái",
+              "extraPrice": 0,
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "id": "toppings",
+          "title": "Thêm topping",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "beef",
+              "name": "Bò",
+              "extraPrice": 59000,
+              "defaultValue": false
+            },
+            {
+              "id": "shrimp",
+              "name": "Tôm",
+              "extraPrice": 69000,
+              "defaultValue": false
+            },
+            {
+              "id": "mushroom",
+              "name": "Nấm",
+              "extraPrice": 29000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "vegetables",
+          "title": "Rau thêm",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "vegetables",
+              "name": "Rau theo mùa",
+              "extraPrice": 19000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "noodles",
+          "title": "Bún / mì đi kèm",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "vermicelli",
+              "name": "Bún tươi",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "noodles",
+              "name": "Mì",
+              "extraPrice": 0,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "title": "Nước uống thêm",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "two",
+              "name": "2 chai nước suối",
+              "extraPrice": 20000,
+              "defaultValue": false
+            },
+            {
+              "id": "four",
+              "name": "4 chai nước suối",
+              "extraPrice": 40000,
+              "defaultValue": false
+            },
+            {
+              "id": "six",
+              "name": "6 chai nước suối",
+              "extraPrice": 60000,
+              "defaultValue": false
+            }
+          ]
+        }
+      ],
+      "availableOptions": [
+        "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+        "Bao gồm rau và một phần bún hoặc mì",
+        "Nước lẩu: Nước lẩu Thái"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Nước lẩu Thái chua cay, tôm mực ngọt thịt, thơm sả.",
+      "shortDescription": "Nước lẩu Thái chua cay, tôm mực ngọt thịt, thơm sả.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    },
+    {
+      "id": 124,
+      "name": "Lẩu gà lá é",
+      "price": 269000,
+      "description": "Gà mềm, nước dùng trong ngọt, thơm hương lá é.",
+      "ingredients": [
+        "Thịt gà",
+        "Lá é",
+        "Nấm",
+        "Rau cải"
+      ],
+      "spicyLevel": "Cay nhẹ",
+      "imageUrl": "/images/hotpot/lau-ga-la-e.jpg",
+      "image": "/images/hotpot/lau-ga-la-e.jpg",
+      "imageIsIllustration": true,
+      "categoryId": "main-dish",
+      "subCategoryId": "lau",
+      "features": [
+        "bestseller"
+      ],
+      "newMarked": false,
+      "variantGroups": [
+        {
+          "id": "size",
+          "title": "Size / số người",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "small",
+              "name": "Nhỏ · 2 người",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "medium",
+              "name": "Vừa · 4 người",
+              "extraPrice": 161000,
+              "defaultValue": false
+            },
+            {
+              "id": "large",
+              "name": "Lớn · 6 người",
+              "extraPrice": 323000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "spice",
+          "title": "Mức cay",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "none",
+              "name": "Không cay",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "light",
+              "name": "Cay nhẹ",
+              "extraPrice": 0,
+              "defaultValue": false
+            },
+            {
+              "id": "medium",
+              "name": "Cay vừa",
+              "extraPrice": 0,
+              "defaultValue": false
+            },
+            {
+              "id": "hot",
+              "name": "Cay nhiều",
+              "extraPrice": 0,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "broth",
+          "title": "Nước lẩu",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "original",
+              "name": "Nước dùng gà lá é",
+              "extraPrice": 0,
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "id": "toppings",
+          "title": "Thêm topping",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "beef",
+              "name": "Bò",
+              "extraPrice": 59000,
+              "defaultValue": false
+            },
+            {
+              "id": "shrimp",
+              "name": "Tôm",
+              "extraPrice": 69000,
+              "defaultValue": false
+            },
+            {
+              "id": "mushroom",
+              "name": "Nấm",
+              "extraPrice": 29000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "vegetables",
+          "title": "Rau thêm",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "vegetables",
+              "name": "Rau theo mùa",
+              "extraPrice": 19000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "noodles",
+          "title": "Bún / mì đi kèm",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "vermicelli",
+              "name": "Bún tươi",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "noodles",
+              "name": "Mì",
+              "extraPrice": 0,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "title": "Nước uống thêm",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "two",
+              "name": "2 chai nước suối",
+              "extraPrice": 20000,
+              "defaultValue": false
+            },
+            {
+              "id": "four",
+              "name": "4 chai nước suối",
+              "extraPrice": 40000,
+              "defaultValue": false
+            },
+            {
+              "id": "six",
+              "name": "6 chai nước suối",
+              "extraPrice": 60000,
+              "defaultValue": false
+            }
+          ]
+        }
+      ],
+      "availableOptions": [
+        "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+        "Bao gồm rau và một phần bún hoặc mì",
+        "Nước lẩu: Nước dùng gà lá é"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Gà mềm, nước dùng trong ngọt, thơm hương lá é.",
+      "shortDescription": "Gà mềm, nước dùng trong ngọt, thơm hương lá é.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    },
+    {
+      "id": 126,
+      "name": "Lẩu riêu cua bắp bò",
+      "price": 319000,
+      "description": "Riêu cua thơm béo, bắp bò mềm, đậu phụ và rau tươi.",
+      "ingredients": [
+        "Cua",
+        "Bắp bò",
+        "Đậu phụ",
+        "Cà chua",
+        "Rau cải"
+      ],
+      "spicyLevel": "Không cay",
+      "imageUrl": "/images/hotpot/lau-rieu-cua-bap-bo.jpg",
+      "image": "/images/hotpot/lau-rieu-cua-bap-bo.jpg",
+      "imageIsIllustration": true,
+      "categoryId": "main-dish",
+      "subCategoryId": "lau",
+      "features": [
+        "bestseller"
+      ],
+      "newMarked": false,
+      "variantGroups": [
+        {
+          "id": "size",
+          "title": "Size / số người",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "small",
+              "name": "Nhỏ · 2 người",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "medium",
+              "name": "Vừa · 4 người",
+              "extraPrice": 191000,
+              "defaultValue": false
+            },
+            {
+              "id": "large",
+              "name": "Lớn · 6 người",
+              "extraPrice": 383000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "spice",
+          "title": "Mức cay",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "none",
+              "name": "Không cay",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "light",
+              "name": "Cay nhẹ",
+              "extraPrice": 0,
+              "defaultValue": false
+            },
+            {
+              "id": "medium",
+              "name": "Cay vừa",
+              "extraPrice": 0,
+              "defaultValue": false
+            },
+            {
+              "id": "hot",
+              "name": "Cay nhiều",
+              "extraPrice": 0,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "broth",
+          "title": "Nước lẩu",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "original",
+              "name": "Nước riêu cua",
+              "extraPrice": 0,
+              "defaultValue": true
+            }
+          ]
+        },
+        {
+          "id": "toppings",
+          "title": "Thêm topping",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "beef",
+              "name": "Bò",
+              "extraPrice": 59000,
+              "defaultValue": false
+            },
+            {
+              "id": "shrimp",
+              "name": "Tôm",
+              "extraPrice": 69000,
+              "defaultValue": false
+            },
+            {
+              "id": "mushroom",
+              "name": "Nấm",
+              "extraPrice": 29000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "vegetables",
+          "title": "Rau thêm",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "vegetables",
+              "name": "Rau theo mùa",
+              "extraPrice": 19000,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "noodles",
+          "title": "Bún / mì đi kèm",
+          "description": "Chọn một tùy chọn",
+          "type": "SINGLE",
+          "isRequired": true,
+          "options": [
+            {
+              "id": "vermicelli",
+              "name": "Bún tươi",
+              "extraPrice": 0,
+              "defaultValue": true
+            },
+            {
+              "id": "noodles",
+              "name": "Mì",
+              "extraPrice": 0,
+              "defaultValue": false
+            }
+          ]
+        },
+        {
+          "id": "drinks",
+          "title": "Nước uống thêm",
+          "description": "Có thể chọn nhiều",
+          "type": "MULTIPLE",
+          "isRequired": false,
+          "options": [
+            {
+              "id": "two",
+              "name": "2 chai nước suối",
+              "extraPrice": 20000,
+              "defaultValue": false
+            },
+            {
+              "id": "four",
+              "name": "4 chai nước suối",
+              "extraPrice": 40000,
+              "defaultValue": false
+            },
+            {
+              "id": "six",
+              "name": "6 chai nước suối",
+              "extraPrice": 60000,
+              "defaultValue": false
+            }
+          ]
+        }
+      ],
+      "availableOptions": [
+        "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+        "Bao gồm rau và một phần bún hoặc mì",
+        "Nước lẩu: Nước riêu cua"
+      ],
+      "ingredientsSource": "menu_description",
+      "ingredientsComplete": false,
+      "ingredientsEvidence": "Riêu cua thơm béo, bắp bò mềm, đậu phụ và rau tươi.",
+      "shortDescription": "Riêu cua thơm béo, bắp bò mềm, đậu phụ và rau tươi.",
+      "category": "main-dish",
+      "isPopular": true,
+      "isNew": false,
+      "isFavorite": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "Tất cả",
+      "icon": "all",
+      "description": "Tinh hoa ẩm thực Việt, cho mỗi bữa sum vầy"
+    },
+    {
+      "id": "grill",
+      "name": "Món nướng",
+      "icon": "flame",
+      "description": "Thơm ngon đậm vị, chuẩn hương Việt"
+    },
+    {
+      "id": "starter",
+      "name": "Khai vị",
+      "icon": "leaf",
+      "description": "Nhẹ nhàng khai vị, đánh thức vị giác"
+    },
+    {
+      "id": "main-dish",
+      "name": "Món chính",
+      "icon": "bowl",
+      "description": "Món ngon tròn vị, ấm lòng bữa cơm Việt"
+    },
+    {
+      "id": "seafood",
+      "name": "Hải sản",
+      "icon": "fish",
+      "description": "Hương vị biển trong từng món ngon"
+    },
+    {
+      "id": "hotpot",
+      "name": "Lẩu",
+      "icon": "pot",
+      "description": "Quây quần bên nồi lẩu, ấm áp tình thân"
+    },
+    {
+      "id": "rice",
+      "name": "Cơm",
+      "icon": "bowl",
+      "description": "Dẻo thơm hạt gạo, đậm đà hương quê"
+    },
+    {
+      "id": "drink",
+      "name": "Nước uống",
+      "icon": "drink",
+      "description": "Thanh mát, tươi ngon, trọn vị bữa ăn"
+    },
+    {
+      "id": "dessert",
+      "name": "Tráng miệng",
+      "icon": "cake",
+      "description": "Chút ngọt ngào khép lại bữa ngon"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "MAISON20",
+      "eyebrow": "ƯU ĐÃI ĐẶC BIỆT",
+      "title": "THỨ 2 - THỨ 6",
+      "description": "Giảm đến 30%",
+      "action": "Xem ngay",
+      "route": "/promotions",
+      "foodId": 1,
+      "tone": "warm"
+    },
+    {
+      "id": "family",
+      "eyebrow": "COMBO Gia đình",
+      "title": "Ngon hơn khi có nhau",
+      "description": "",
+      "action": "Khám phá",
+      "route": "/ai-chat",
+      "foodId": 4,
+      "tone": "cream"
+    }
+  ]
+}

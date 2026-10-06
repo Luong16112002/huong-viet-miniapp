@@ -1,0 +1,7 @@
+﻿import test from 'node:test';
+import assert from 'node:assert/strict';
+import {transcribeRoute} from './voice-input.mjs';
+const input={mimeType:'audio/webm',audio:Buffer.alloc(200,1).toString('base64')};
+async function call(body,ai){const req={method:'POST',url:'/api/ai/transcribe',async *[Symbol.asyncIterator](){yield JSON.stringify(body)}};let reply;await transcribeRoute(req,{},(_,status,data)=>{reply={status,data}},ai,'test');return reply;}
+test('valid recording is transcribed without becoming a chat reply',async()=>{const ai={models:{generateContent:async request=>{assert.equal(request.contents[0].parts[0].inlineData.data,input.audio);assert.match(request.contents[0].parts[1].text,/không trả lời/);return {text:JSON.stringify({transcript:'Tư vấn món cho 4 người ngân sách 1 triệu'})}}}};const r=await call(input,ai);assert.equal(r.status,200);assert.equal(r.data.transcript,'Tư vấn món cho 4 người ngân sách 1 triệu');});
+test('empty, unsupported, silence, unavailable and provider errors are explicit',async()=>{assert.equal((await call({...input,audio:''},null)).status,400);assert.equal((await call({...input,mimeType:'text/html'},null)).status,400);assert.equal((await call(input,null)).status,503);assert.equal((await call(input,{models:{generateContent:async()=>({text:'{"transcript":""}'})}})).status,422);assert.equal((await call(input,{models:{generateContent:async()=>{throw new Error('provider')}}})).status,502);});

@@ -1,0 +1,16 @@
+{
+  "app": {
+    "title": "Nhà Hàng Hương Việt",
+    "headerTitle": "",
+    "headerColor": "#123C29",
+    "textColor": "white",
+    "leftButton": "none",
+    "statusBar": "hidden",
+    "actionBarHidden": true,
+    "hideAndroidBottomNavigationBar": false,
+    "hideIOSSafeAreaBottom": false
+  },
+  "listCSS": [],
+  "listSyncJS": [],
+  "listAsyncJS": []
+}

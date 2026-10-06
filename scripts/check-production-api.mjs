@@ -1,0 +1,31 @@
+const base = process.argv[2];
+const origin = process.argv[3];
+if (!base || !origin) throw new Error('Usage: node scripts/check-production-api.mjs https://REAL_BACKEND https://ACTUAL_ZALO_ORIGIN');
+const url = new URL(base);
+if (url.protocol !== 'https:' || /^(localhost|127\.|\[::1\])/.test(url.hostname)) throw new Error('Public HTTPS backend required');
+async function request(path, options = {}) {
+  const response = await fetch(new URL(path, base), { ...options, headers: { Origin: origin, 'Content-Type': 'application/json', ...options.headers }, signal: AbortSignal.timeout(15000) });
+  if (response.headers.get('access-control-allow-origin') !== origin) throw new Error('CORS origin mismatch');
+  if (!response.ok) throw new Error(`${path}: HTTP ${response.status}`);
+  return response.status === 204 ? null : response.json();
+}
+const health = await request('/api/health');
+if (!health.success || health.service !== 'huong-viet-api' || health.database !== true) throw new Error('Backend or database unavailable');
+console.log('Backend OK');
+console.log('Database OK');
+const tables = await request('/api/debug/tables');
+if (tables.count !== 500) throw new Error(`Expected 500 tables, received ${tables.count}`);
+console.log('Tables = 500');
+const ai = await request('/api/ai/health');
+if (!ai.success || !ai.configured) throw new Error('AI_NOT_CONFIGURED');
+console.log('Gemini configured = true');
+await request('/api/bookings/available-tables', { method: 'OPTIONS', headers: { 'Access-Control-Request-Method': 'POST', 'Access-Control-Request-Headers': 'Content-Type' } });
+const home = await request('/api/home');
+if (!home.restaurant?.name || !home.featured?.length) throw new Error('Missing home data');
+const menu = await request('/api/commerce/menu');
+if (!Array.isArray(menu) || !menu.length) throw new Error('Empty production menu');
+const tomorrow = new Date(); tomorrow.setUTCDate(tomorrow.getUTCDate() + 1);
+const date = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Ho_Chi_Minh' }).format(tomorrow);
+const availability = await request('/api/bookings/available-tables', { method: 'POST', body: JSON.stringify({ date, time: '18:30', guests: 2, area: 'indoor' }) });
+if (!Array.isArray(availability.tables) || !availability.tables.length) throw new Error('No available tables; verify inventory and bookings');
+console.log('PASS production health, AI configuration, CORS preflight, home, menu and available tables');

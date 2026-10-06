@@ -1,0 +1,11 @@
+[
+  {
+    "code": "CUOITUAN20",
+    "title": "Giảm 50.000đ",
+    "description": "Cho đơn từ 25.000đ",
+    "expiry": "2026-10-11T23:59:59+07:00",
+    "theme": "green",
+    "minSubtotal": 25000,
+    "amount": 50000
+  }
+]

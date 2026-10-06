@@ -1,0 +1,22 @@
+import { useState } from "react";
+import type { Notice } from "@/stores/notification-api.store";
+export const tabs=[['all','Tất cả'],['order','Đơn hàng'],['booking','Đặt bàn'],['promotion','Ưu đãi'],['system','Hệ thống']];
+export function NoticeIcon({type='system'}:{type?:string}) {
+  const paths:Record<string,string>={booking:'M4 5h16v16H4z M8 3v4m8-4v4M4 10h16m-12 5 3 3 5-5',order:'M5 7h14l1 14H4L5 7m3 0V5a4 4 0 0 1 8 0v2',promotion:'M3 8h18v13H3zM12 8v13M3 12h18M12 8C2 8 5 0 9 4l3 4c10 0 7-8 3-4z',system:'M6 9a6 6 0 0 1 12 0c0 6 3 8 3 8H3s3-2 3-8m4 12h4',warning:'M12 3 2 21h20L12 3m0 6v5m0 3v1',success:'m5 12 4 4L19 6',all:'M3 3h6v6H3zm12 0h6v6h-6zM3 15h6v6H3zm12 0h6v6h-6z'};
+  return <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d={paths[type]||paths.system}/></svg>;
+}
+export function NotificationHeader({count,onBack}:{count:number;onBack:()=>void}){return <header className="notice-header"><button onClick={onBack} aria-label="Quay lại">←</button><h1>Thông báo</h1><span className="notice-bell" aria-label={`${count} thông báo chưa đọc`}><NoticeIcon/>{count>0&&<b>{count>99?'99+':count}</b>}</span></header>;}
+export function NotificationSummary({count,busy,onRead}:{count:number;busy:boolean;onRead:()=>void}){return <section className="notice-summary"><span className="notice-summary-icon"><NoticeIcon/></span><div><h2>Thông báo</h2><p>{count?`${count} thông báo mới`:'Bạn đã đọc hết thông báo'}</p></div><button disabled={!count||busy} onClick={onRead}>✓ <span>Đánh dấu đã đọc</span></button></section>;}
+export function NotificationFilterTabs({value,onChange,items}:{value:string;onChange:(value:string)=>void;items:Notice[]}){return <nav className="notice-filters" aria-label="Lọc thông báo">{tabs.map(([id,label])=><button key={id} aria-pressed={value===id} onClick={()=>onChange(id)}><NoticeIcon type={id}/>{label}<span>{items.filter(n=>id==='all'||n.type===id).length}</span></button>)}</nav>;}
+export function NotificationEmptyState(){return <section className="notice-empty"><span><NoticeIcon/></span><h2>Bạn chưa có thông báo nào</h2><p>Các cập nhật về đơn hàng, đặt bàn và ưu đãi sẽ xuất hiện tại đây.</p></section>;}
+export function NotificationCard({item,onOpen,onRead,onDelete,busy}:{item:Notice;onOpen:()=>void;onRead:()=>void;onDelete:()=>void;busy:boolean}){
+  const [menu,setMenu]=useState(false);
+  return <article className={`notice-card ${item.isRead?'read':'unread'} ${item.tone||''}`}><button className="notice-open" onClick={onOpen} disabled={busy}><span className={`notice-icon ${item.type}`}><NoticeIcon type={item.tone==='warning'?'warning':item.type}/></span><span className="notice-copy"><strong>{item.title}</strong><span className="notice-message">{item.message}</span><time dateTime={item.createdAt}>{new Intl.DateTimeFormat('vi-VN',{timeZone:'Asia/Ho_Chi_Minh',hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit',year:'numeric'}).format(new Date(item.createdAt))}</time>{item.action&&<span className="notice-cta">{item.action.label} <span>›</span></span>}</span></button>{!item.isRead&&<span className="notice-dot" aria-label="Chưa đọc"/>}<button className="notice-more" aria-label={`Thao tác: ${item.title}`} aria-expanded={menu} onClick={()=>setMenu(!menu)}>⋯</button>{menu&&<div className="notice-menu">{!item.isRead&&<button disabled={busy} onClick={()=>{setMenu(false);onRead();}}>✓ Đánh dấu đã đọc</button>}<button disabled={busy} onClick={()=>{setMenu(false);onDelete();}}>Xóa thông báo</button><button onClick={()=>setMenu(false)}>Đóng</button></div>}</article>;
+}
+export function groupNotifications(items:Notice[],now=new Date()) {
+  const dateKey=(d:Date)=>new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Ho_Chi_Minh'}).format(d);
+  const today=Date.parse(dateKey(now)+'T00:00:00+07:00');
+  const weekday=new Date(today+7*3600000).getUTCDay();const monday=today-((weekday+6)%7)*86400000;
+  return ['Hôm nay','Hôm qua','Tuần này','Cũ hơn'].map(label=>({label,items:items.filter(n=>{const time=Date.parse(n.createdAt);return (time>=today?'Hôm nay':time>=today-86400000?'Hôm qua':time>=monday?'Tuần này':'Cũ hơn')===label;})})).filter(g=>g.items.length);
+}
+export function NotificationGroup({label,children}:{label:string;children:React.ReactNode}){return <section className="notice-group"><h2>{label}</h2>{children}</section>;}

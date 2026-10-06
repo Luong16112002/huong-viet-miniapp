@@ -1,0 +1,77 @@
+/* Scoped to the existing reservation form; receipt and shared navigation stay intact. */
+.reservation-shell .reservation-page { background: #f7f4ec; color: #243f35; -webkit-font-smoothing: antialiased; }
+.reservation-shell .booking-hero { position: relative; width: 100%; height: 150px; min-height: 150px; flex-shrink: 0; overflow: hidden; background: #123f32; border-radius: 0 0 18px 18px; }
+.reservation-shell .booking-hero img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% center; }
+.reservation-shell .booking-hero::after { content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(90deg,rgba(8,42,31,.92) 0%,rgba(8,42,31,.78) 30%,rgba(8,42,31,.38) 58%,rgba(8,42,31,.08) 100%); }
+.reservation-shell .booking-hero-copy { position: absolute; left: 13px; right: auto; top: 50%; bottom: auto; transform: translateY(-50%); width: 58%; max-width: 225px; padding: 0; z-index: 2; }
+.reservation-shell .booking-hero .booking-eyebrow { display: block; margin: 0 0 5px; font-size: 8px; line-height: 1.2; font-weight: 800; letter-spacing: 1.25px; color: #e7c47d; }
+.reservation-shell .booking-hero h1 { font-family: "Noto Serif", serif; font-size: 20px; line-height: 1.08; font-weight: 700; letter-spacing: -.25px; margin: 0; color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,.18); }
+.reservation-shell .booking-hero h1 em { font-family: inherit; font-style: normal; }
+.reservation-shell .booking-hero p { max-width: 205px; font-size: 9px; line-height: 1.4; font-weight: 500; margin: 6px 0 0; color: rgba(255,255,255,.88); }
+.reservation-shell .booking-hero-tag { display: inline-flex; align-items: center; width: fit-content; max-width: 100%; margin-top: 8px; padding: 5px 9px; border-radius: 999px; font-size: 8px; line-height: 1.2; font-weight: 700; background: rgba(255,255,255,.14); border: 1px solid rgba(255,255,255,.12); color: #fff; }
+@media (max-width: 374px) {
+  .reservation-shell .booking-hero { height: 142px; min-height: 142px; }
+  .reservation-shell .booking-hero-copy { left: 11px; width: 60%; }
+  .reservation-shell .booking-hero h1 { font-size: 18px; }
+}
+@media (min-width: 390px) {
+  .reservation-shell .booking-hero { height: 155px; min-height: 155px; }
+  .reservation-shell .booking-hero-copy { left: 15px; width: 57%; max-width: 235px; }
+  .reservation-shell .booking-hero h1 { font-size: 21px; }
+}
+.reservation-shell .booking-container { padding: 0 8px 12px; }
+.reservation-shell .booking-steps { height: 48px; min-height: 48px; margin: 0 0 10px; padding: 0 5px; border-radius: 0 0 16px 16px; box-shadow: 0 4px 12px rgba(23,79,61,.045); }
+.reservation-shell .booking-steps button { font-size: 10px; gap: 5px; padding: 4px; color: #62736a; }
+.reservation-shell .booking-steps button span { width: 21px; height: 21px; font-size: 9px; }
+.reservation-shell .booking-steps button[aria-current] { color: #176047; font-weight: 800; }
+.reservation-shell .booking-layout { gap: 10px; }
+.reservation-shell .booking-summary { padding: 13px; border-radius: 18px; box-shadow: 0 5px 16px rgba(23,79,61,.05); }
+.reservation-shell .booking-summary .booking-eyebrow { font-size: 9px; letter-spacing: 1px; }
+.reservation-shell .booking-summary dl { gap: 11px 18px; margin-top: 11px; }
+.reservation-shell .booking-summary dt { font-size: 10px; color: #62736a; margin-bottom: 3px; }
+.reservation-shell .booking-summary dd { font-size: 12px; line-height: 1.3; font-weight: 700; }
+.reservation-shell .booking-summary > .booking-history-link { display: block; margin-top: 11px; padding-top: 9px; border-top: 1px solid rgba(23,79,61,.06); font-size: 10px; }
+.reservation-shell .booking-zalo-notice { display: flex; align-items: flex-start; gap: 8px; margin: 0 2px; padding: 9px 10px; border-radius: 12px; background: #fff9ed; border: 1px solid rgba(184,138,73,.12); color: #725f42; font-size: 10px; line-height: 1.45; }
+.reservation-shell .booking-zalo-notice > span:first-child { flex-shrink: 0; }
+.reservation-shell .booking-panel { padding: 14px 11px; border-radius: 20px; background: #fff; overflow: visible; animation: none; box-shadow: 0 5px 16px rgba(23,79,61,.045); }
+.reservation-shell .booking-panel::before,.reservation-shell .booking-panel-heading::after { display: none; }
+.reservation-shell .booking-panel-heading .booking-eyebrow { font-size: 9px; letter-spacing: 1px; }
+.reservation-shell .booking-panel-heading h2 { margin-top: 5px; font-family: "Noto Serif", serif; font-size: 20px; line-height: 1.25; font-weight: 700; }
+.reservation-shell .booking-panel-heading p { margin-top: 4px; font-size: 11px; line-height: 1.5; color: #62736a; }
+.reservation-shell .booking-section { margin-top: 15px; padding-top: 13px; border-top: 1px solid rgba(23,79,61,.06); }
+.reservation-shell .booking-panel-heading + .booking-section { padding-top: 0; border-top: 0; margin-top: 15px; }
+.reservation-shell .booking-section h3 { font-size: 12px; font-weight: 800; }
+.reservation-shell .booking-section-title { margin-bottom: 8px; }
+.reservation-shell .booking-section-title > span,.reservation-shell .booking-date-picker { font-size: 10px; color: #62736a; }
+.reservation-shell .booking-dates { display: flex; overflow-x: auto; gap: 7px; padding: 2px 1px 8px; scroll-snap-type: x proximity; scrollbar-width: none; }
+.reservation-shell .booking-dates::-webkit-scrollbar { display: none; }
+.reservation-shell .booking-dates button { flex: 0 0 49px; min-width: 49px; height: 66px; padding: 5px 2px; border-radius: 13px; scroll-snap-align: start; box-shadow: none; }
+.reservation-shell .booking-dates button small { font-size: 9px; line-height: 1.3; color: #62736a; }
+.reservation-shell .booking-dates button strong { font-size: 17px; margin: 3px 0; }
+.reservation-shell .booking-dates button[aria-pressed="true"] { background: linear-gradient(145deg,#154f3d,#1d6b50); border-color: #176047; color: white; transform: translateY(-2px); box-shadow: 0 5px 12px rgba(23,96,71,.17); }
+.reservation-shell .booking-dates button[aria-pressed="true"] small,.reservation-shell .booking-dates button[aria-pressed="true"] strong { color: white; }
+.reservation-shell .booking-hint { font-size: 10px; line-height: 1.45; color: #62736a; margin-top: 6px; }
+.reservation-shell .booking-dates + .booking-hint { padding: 7px 9px; background: #f2f7f4; border-radius: 10px; color: #36624f; }
+.reservation-shell .booking-guests { padding: 8px 0; }
+.reservation-shell .booking-guests strong { font-size: 12px; }
+.reservation-shell .booking-guests p { font-size: 10px; }
+.reservation-shell .booking-quick { margin-top: 7px; gap: 6px; }
+.reservation-shell .booking-quick button { font-size: 10px; padding: 5px 8px; }
+.reservation-shell .booking-time-group { margin-top: 11px; }
+.reservation-shell .booking-time-group h4 { margin: 0 0 7px; font-size: 10px; font-weight: 800; letter-spacing: .6px; color: #62736a; }
+.reservation-shell .booking-times { grid-template-columns: repeat(5,minmax(0,1fr)); gap: 6px; }
+.reservation-shell .booking-times button { min-height: 34px; height: 34px; padding: 0; font-size: 11px; font-weight: 600; border-radius: 10px; background: white; color: #596e63; border: 1px solid rgba(23,79,61,.08); }
+.reservation-shell .booking-times button[aria-pressed="true"] { background: #176047; color: white; border-color: #176047; font-weight: 800; box-shadow: 0 3px 9px rgba(23,96,71,.17); }
+.reservation-shell .booking-times button:disabled { background: #f5f5f1; color: #929b95; text-decoration: line-through; box-shadow: none; }
+.reservation-shell .booking-areas { gap: 7px; margin-top: 8px; }
+.reservation-shell .booking-areas button { display: grid; grid-template-columns: 32px minmax(0,1fr) 18px; align-items: center; gap: 9px; min-height: 56px; padding: 8px 10px; border-radius: 13px; }
+.reservation-shell .booking-area-icon { width: 32px; height: 32px; border-radius: 10px; font-size: 18px; background: #eef5f1; }
+.reservation-shell .booking-areas strong { font-size: 12px; }
+.reservation-shell .booking-areas small { font-size: 10px; line-height: 1.4; color: #62736a; margin-top: 2px; }
+.reservation-shell .booking-areas button[aria-pressed="true"] { background: #edf6f1; border-color: rgba(35,112,87,.25); box-shadow: inset 3px 0 #237057; }
+.reservation-shell .booking-radio { width: 18px; height: 18px; font-size: 10px; }
+.reservation-shell .booking-actions.booking-sticky-footer { position: sticky; bottom: 0; z-index: 50; margin: 0 -8px; padding: 9px 62px calc(9px + env(safe-area-inset-bottom,0px)) 10px; background: rgba(247,244,236,.96); backdrop-filter: blur(14px); border-top: 1px solid rgba(23,79,61,.06); gap: 7px; }
+.reservation-shell .booking-sticky-footer .booking-primary { min-height: 46px; height: 46px; font-size: 12px; padding: 0 10px; border-radius: 14px; font-weight: 800; box-shadow: 0 5px 14px rgba(23,79,61,.16); }
+.reservation-shell .booking-sticky-footer .booking-primary:disabled { background: #d8deda; color: #67776c; box-shadow: none; cursor: not-allowed; }
+.reservation-shell .booking-sticky-footer .booking-secondary { font-size: 11px; padding: 0 10px; }
+.reservation-shell > .chef-float-button:not(.is-dragging) { top: auto !important; left: auto !important; right: max(12px,calc((100vw - 430px)/2 + 12px)) !important; bottom: calc(22px + env(safe-area-inset-bottom,0px)) !important; width: 40px; height: 40px; border-radius: 13px; }

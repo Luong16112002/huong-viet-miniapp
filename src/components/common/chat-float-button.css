@@ -1,0 +1,5 @@
+﻿.chef-float-button { position:fixed; z-index:90; width:52px; height:52px; display:grid; place-items:center; border-radius:18px; border:1px solid rgba(255,255,255,.65); background:#174f3d; color:#fffdf7; box-shadow:0 5px 16px rgba(15,55,42,.22); touch-action:none; user-select:none; -webkit-user-select:none; cursor:grab; }
+.chef-float-button svg { width:27px; height:27px; pointer-events:none; }
+.chef-float-button span { position:absolute; right:-3px; top:-5px; padding:2px 5px; border-radius:7px; background:#e9c983; color:#174f3d; font-size:9px; font-weight:800; pointer-events:none; }
+.chef-float-button.is-dragging { cursor:grabbing; box-shadow:0 8px 20px rgba(15,55,42,.26); }
+.chef-float-button:focus-visible { outline:3px solid #c99b58; outline-offset:4px; }

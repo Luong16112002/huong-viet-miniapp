@@ -1,0 +1,73 @@
+.account-page{max-width:760px;margin:auto;padding:28px 20px 48px;color:#293d31;min-height:100%;font-family:"Noto Sans", Inter,sans-serif}
+.account-page *{box-sizing:border-box}
+.account-page button,.account-page input,.account-page textarea{font:inherit}
+.account-page button{cursor:pointer}
+.account-page button:disabled{opacity:.45;cursor:not-allowed}
+.account-page :focus-visible{outline:3px solid #b6c8a9;outline-offset:3px}
+.account-intro{margin-bottom:24px}
+.account-eyebrow{font-size:10px;letter-spacing:2px;font-weight:700;color:#78906b}
+.account-intro h1{font-family:"Noto Serif", serif;font-size:29px;line-height:1.3;margin:10px 0;color:#234b37}
+.account-intro p{color:#768171;font-size:13px;line-height:1.8;margin:0;max-width:460px}
+.account-card{padding:24px;border:1px solid #e5e8dc;border-radius:22px;background:#fffefb;box-shadow:0 4px 18px #233c2510;margin:18px 0}
+.account-card h2{font-size:17px;font-weight:600;margin:0 0 16px}
+.account-identity{display:flex;align-items:center;gap:14px;border-bottom:1px solid #e9ecdf;padding-bottom:22px;margin-bottom:24px}
+.account-avatar{width:60px;height:60px;display:grid;place-items:center;background:#e9efdf;border:1px solid #d7e1c9;border-radius:20px;color:#3c623c;font-family:"Noto Serif", serif;font-size:28px}
+.account-identity strong{font-size:17px;overflow-wrap:anywhere}
+.account-identity small{display:block;font-size:11px;color:#85907e;margin-top:5px}
+.account-field{display:block;margin:20px 0;font-size:13px;font-weight:600}
+.account-field input,.account-field textarea,.account-field select{display:block;width:100%;background:#fff;border:1px solid #dae1d0;border-radius:12px;padding:13px 14px;margin-top:10px;color:#293d31;font-size:16px;min-height:48px;resize:vertical}
+.account-field [aria-invalid=true]{border-color:#bd5747}
+.account-field small{display:block;font-size:11px;font-weight:400;color:#7b8574;margin-top:8px}
+.account-actions{display:flex;gap:12px;margin-top:24px}
+.account-primary,.account-secondary,.account-danger{min-height:44px;display:inline-flex;justify-content:center;align-items:center;padding:11px 17px;border-radius:12px;font-size:13px!important;font-weight:600!important;text-decoration:none;line-height:1.4}
+.account-primary{color:#fff;background:#27543d;border:1px solid #27543d}
+.account-secondary{color:#35553c;border:1px solid #dce3d3;background:#fff}
+.account-danger{color:#a54131;background:#fff0eb;border:1px solid #efc5ba}
+.account-actions .account-primary{flex:1}
+.account-error{display:block;color:#ac4535;font-size:12px;line-height:1.7;margin:8px 0}
+.account-success{background:#edf5e7;color:#39633d;border:1px solid #d6e6cb;padding:13px;border-radius:12px;font-size:13px;line-height:1.6}
+.account-footnote{font-size:11px;color:#7c8775;line-height:1.7;margin:14px 0}
+.account-review-summary{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#edf2e5;border:1px solid #dce5d1;border-radius:20px;padding:22px}
+.account-review-summary strong{font-size:32px;font-family:"Noto Serif", serif;color:#2d543a}
+.account-review-summary strong span{font-size:16px;color:#8b977e}
+.account-review-summary small{display:block;font-size:11px;margin-top:6px;color:#7c8a70}
+.account-rating{padding:0;border:0;margin:0 0 20px}
+.account-rating legend{font-size:12px;color:#7d8875;margin-bottom:8px}
+.account-rating label{display:inline-block;position:relative;width:44px;height:48px;cursor:pointer}
+.account-rating input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.account-rating label>span{font-size:36px;color:#dde2d3;pointer-events:none}
+.account-rating .selected{color:#b39348}
+.account-rating label:focus-within{outline:2px solid #8fa479;border-radius:6px}
+.account-rating p{font-size:12px;color:#7a856d;margin:8px 0}
+.account-filters{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}
+.account-filters button{border:1px solid #dfe5d6;background:white;color:#78836b;padding:9px 13px;border-radius:22px;font-size:12px;min-height:40px}
+.account-filters button[aria-pressed=true]{background:#2c543c;color:white;border-color:#2c543c}
+.account-review-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}
+.account-stars{letter-spacing:2px;color:#b39348;font-size:19px}
+.account-stars>span{color:#dbe1d0}
+.account-review time,.account-review>small{font-size:10px;color:#8a937f}
+.account-review>p{font-size:14px;line-height:1.85;white-space:pre-wrap;overflow-wrap:anywhere;margin:12px 0}
+.account-review-tools{display:flex;gap:20px;border-top:1px solid #e9ecdf;padding-top:14px;margin-top:18px}
+.account-review-tools button{border:0;background:none;color:#4b6545;font-size:12px;padding:6px 0;text-decoration:underline}
+.account-review-tools button:last-child{color:#a55b48}
+.account-delete{background:#faf3ee;border:1px solid #ecdbce;padding:14px;border-radius:12px;margin-top:12px}
+.account-delete p{font-size:12px;margin:0 0 12px}
+.account-delete button{margin-right:8px}
+.account-empty{text-align:center;padding:35px 12px}
+.account-empty>span{display:grid;place-items:center;border-radius:50%;width:70px;height:70px;margin:0 auto 18px;background:#eff2e7;font-size:36px;color:#859773}
+.account-empty h2{font-family:"Noto Serif", serif;font-size:22px;margin:12px 0}
+.account-empty p{font-size:13px;color:#7a8470;line-height:1.8;margin:12px 0 22px}
+.account-search input{background:#fbfcf7}
+.account-faq{border:1px solid #e4e8da;border-radius:20px;overflow:hidden;background:#fffefb}
+.account-faq details{padding:0 20px;border-bottom:1px solid #edf0e5}
+.account-faq details:last-child{border-bottom:0}
+.account-faq summary{padding:20px 22px 20px 0;cursor:pointer;font-size:14px;line-height:1.6;font-weight:600;list-style:none;position:relative}
+.account-faq summary::-webkit-details-marker{display:none}
+.account-faq summary:after{content:"+";position:absolute;right:0;color:#889a76;font-size:22px;top:17px}
+.account-faq details[open] summary:after{content:"−"}
+.account-faq details[open]{background:#f7f9f1}
+.account-faq p{font-size:13px;line-height:1.9;color:#768269;margin:0 0 20px}
+.account-faq a{display:inline-block;color:#2d593b;font-size:12px;font-weight:600;margin:0 0 20px}
+@media(max-width:400px){.account-page{padding:24px 15px 40px}.account-card{padding:20px 16px}.account-intro h1{font-size:26px}.account-review-summary{padding:18px 14px}.account-review-summary .account-primary{font-size:11px!important;padding:10px 12px}.account-faq details{padding:0 16px}}
+
+.account-field input[readonly],.account-field input:disabled{background:#f1f3ee;color:#7c817e;cursor:default}

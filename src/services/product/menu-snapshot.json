@@ -1,0 +1,6530 @@
+[
+  {
+    "id": 21,
+    "categoryId": "main-dish",
+    "subCategoryId": "pho-bun",
+    "name": "Phở gà",
+    "unit": "phần",
+    "spicyLevel": "Không cay",
+    "allergens": [
+      "Có thể chứa gluten tùy loại bánh phở/nước dùng"
+    ],
+    "suitableFor": [
+      "người không ăn cay",
+      "trẻ em nếu không dị ứng thành phần"
+    ],
+    "notSuitableFor": [],
+    "customizations": [
+      "ít hành",
+      "không hành",
+      "thêm rau"
+    ],
+    "servingSize": "1 người",
+    "calories": null,
+    "available": true,
+    "pairings": [
+      "quẩy",
+      "rau thêm",
+      "nước chanh"
+    ],
+    "price": 59000,
+    "description": "Phở gà xé với nước dùng thanh ngọt, hành lá và rau thơm.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh phở",
+      "Thịt gà xé",
+      "Nước dùng gà",
+      "Hành lá",
+      "Rau thơm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Phở gà xé với nước dùng thanh ngọt, hành lá và rau thơm.",
+    "drinkPairings": [
+      "nước chanh"
+    ],
+    "category": "Món chính",
+    "suitableForChildren": null,
+    "childNotes": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 22,
+    "categoryId": "main-dish",
+    "subCategoryId": "mon-xao",
+    "name": "Bò xào nấm",
+    "price": 85000,
+    "description": "Thịt bò mềm xào nấm tươi, hành tây và rau củ.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Thịt bò",
+      "Nấm tươi",
+      "Hành tây",
+      "Rau củ"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Thịt bò mềm xào nấm tươi, hành tây và rau củ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 23,
+    "categoryId": "main-dish",
+    "subCategoryId": "canh-chao",
+    "name": "Cháo gà nấm hương",
+    "price": 55000,
+    "description": "Cháo gà nóng hổi với nấm hương, hành lá và tiêu.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Cháo",
+      "Gà",
+      "Nấm hương",
+      "Hành lá",
+      "Tiêu"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cháo gà nóng hổi với nấm hương, hành lá và tiêu.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 24,
+    "categoryId": "main-dish",
+    "subCategoryId": "com",
+    "name": "Cơm chiên hải sản",
+    "price": 69000,
+    "description": "Cơm chiên tơi hạt với tôm, mực, trứng và rau củ.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm",
+      "Tôm",
+      "Mực",
+      "Trứng",
+      "Rau củ"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm chiên tơi hạt với tôm, mực, trứng và rau củ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 25,
+    "categoryId": "starter",
+    "subCategoryId": "cha-gio",
+    "name": "Nem nướng",
+    "price": 65000,
+    "description": "Nem nướng thơm lừng, ăn cùng rau sống và nước chấm.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Nem nướng",
+      "Rau sống",
+      "Nước chấm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nem nướng thơm lừng, ăn cùng rau sống và nước chấm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 26,
+    "categoryId": "starter",
+    "subCategoryId": "banh-mi",
+    "name": "Bánh mì gà nướng",
+    "price": 39000,
+    "description": "Bánh mì giòn với gà nướng, dưa leo và đồ chua.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Gà nướng",
+      "Dưa leo",
+      "Đồ chua"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì giòn với gà nướng, dưa leo và đồ chua.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 27,
+    "categoryId": "drink",
+    "subCategoryId": "ca-phe",
+    "name": "Bạc xỉu",
+    "price": 35000,
+    "description": "Cà phê sữa dịu nhẹ, thơm béo, dùng cùng đá viên.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê",
+      "Sữa",
+      "Đá viên"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê sữa dịu nhẹ, thơm béo, dùng cùng đá viên.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 28,
+    "categoryId": "drink",
+    "subCategoryId": "tra",
+    "name": "Trà đào cam sả",
+    "price": 39000,
+    "description": "Trà đào thanh mát với cam tươi và hương sả.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Trà đào",
+      "Cam tươi",
+      "Hương sả"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà đào thanh mát với cam tươi và hương sả.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 29,
+    "categoryId": "drink",
+    "subCategoryId": "sinh-to",
+    "name": "Nước ép cam",
+    "price": 35000,
+    "description": "Cam tươi ép nguyên chất, vị chua ngọt tự nhiên.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Cam tươi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cam tươi ép nguyên chất, vị chua ngọt tự nhiên.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 30,
+    "categoryId": "drink",
+    "subCategoryId": "nuoc-ngot",
+    "name": "Soda chanh",
+    "price": 29000,
+    "description": "Soda mát lạnh với chanh tươi và lá bạc hà.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Soda",
+      "Chanh tươi",
+      "Lá bạc hà"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Soda mát lạnh với chanh tươi và lá bạc hà.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 31,
+    "categoryId": "dessert",
+    "subCategoryId": "che",
+    "name": "Chè hạt sen",
+    "price": 29000,
+    "description": "Hạt sen mềm bùi nấu đường phèn, vị ngọt thanh.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Hạt sen",
+      "Đường phèn"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Hạt sen mềm bùi nấu đường phèn, vị ngọt thanh.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 32,
+    "categoryId": "dessert",
+    "subCategoryId": "banh-trang-mieng",
+    "name": "Sữa chua nếp cẩm",
+    "price": 29000,
+    "description": "Sữa chua mát lạnh kết hợp nếp cẩm dẻo thơm.",
+    "variantGroups": [],
+    "features": [],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Sữa chua",
+      "Nếp cẩm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Sữa chua mát lạnh kết hợp nếp cẩm dẻo thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 1,
+    "categoryId": "main-dish",
+    "subCategoryId": "bo-nuong",
+    "description": "Thịt bò tươi cuốn lá lốt và nướng thơm.",
+    "name": "Bò nướng lá lốt",
+    "price": 89000,
+    "variantGroups": [],
+    "features": [
+      "bestseller"
+    ],
+    "imageUrl": null,
+    "ingredients": [
+      "thịt bò",
+      "lá lốt",
+      "sả",
+      "tỏi",
+      "gia vị"
+    ],
+    "ingredientsSource": "restaurant_verified",
+    "ingredientsComplete": true,
+    "ingredientsEvidence": "Thịt bò tươi ngon, cuốn lá lốt, nướng trên than hoa, kèm rượu đắng và nước mắm chấm đặc biệt.",
+    "spicyLevel": "Không cay",
+    "allergens": [],
+    "servingSize": "1-2 người",
+    "suitableForChildren": true,
+    "childNotes": "Có thể phù hợp với trẻ em nếu cắt nhỏ và giảm gia vị đậm.",
+    "customizations": [
+      "ít gia vị",
+      "không cay",
+      "cắt nhỏ"
+    ],
+    "pairings": [
+      "cơm trắng",
+      "rau sống",
+      "nước chanh"
+    ],
+    "drinkPairings": [
+      "nước chanh"
+    ],
+    "unit": "phần",
+    "category": "Món chính",
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 2,
+    "categoryId": "starter",
+    "subCategoryId": "goi-nham",
+    "description": "Gỏi cuốn tươi mát với tôm thịt, rau sống và bún tươi, chấm nước mắm chua ngọt.",
+    "name": "Gỏi cuốn",
+    "price": 45000,
+    "variantGroups": [],
+    "features": [
+      "new"
+    ],
+    "newMarked": true,
+    "imageUrl": null,
+    "ingredients": [
+      "Tôm",
+      "Thịt",
+      "Rau sống",
+      "Bún tươi",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Gỏi cuốn tươi mát với tôm thịt, rau sống và bún tươi, chấm nước mắm chua ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 3,
+    "categoryId": "main-dish",
+    "subCategoryId": "mon-kho",
+    "description": "Cá kho tộ đậm đà hương vị, thơm lừng tiêu và ớt, ăn kèm cơm trắng nóng hổi.",
+    "name": "Cá kho tộ",
+    "price": 79000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cá",
+      "Tiêu",
+      "Ớt",
+      "Cơm trắng (dùng kèm)"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cá kho tộ đậm đà hương vị, thơm lừng tiêu và ớt, ăn kèm cơm trắng nóng hổi.",
+    "pairings": [
+      "Cơm trắng"
+    ],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 4,
+    "categoryId": "main-dish",
+    "subCategoryId": "pho-bun",
+    "description": "Phở bò truyền thống với nước dùng xương ống đậm đà, thịt bò tái và rau thơm.",
+    "name": "Phở bò",
+    "price": 65000,
+    "variantGroups": [],
+    "features": [
+      "bestseller"
+    ],
+    "imageUrl": null,
+    "ingredients": [
+      "Nước dùng xương ống",
+      "Thịt bò tái",
+      "Rau thơm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Phở bò truyền thống với nước dùng xương ống đậm đà, thịt bò tái và rau thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 5,
+    "categoryId": "main-dish",
+    "subCategoryId": "canh-chao",
+    "description": "Canh chua cá lóc miền Nam chua ngọt vừa ăn, kèm đậu bắp, cà chua và rau thơm.",
+    "name": "Canh chua cá",
+    "price": 65000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cá lóc",
+      "Đậu bắp",
+      "Cà chua",
+      "Rau thơm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Canh chua cá lóc miền Nam chua ngọt vừa ăn, kèm đậu bắp, cà chua và rau thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 6,
+    "categoryId": "main-dish",
+    "subCategoryId": "pho-bun",
+    "description": "Bún chả Hà Nội truyền thống với chả nướng thơm lừng, nước mắm chua ngọt và rau sống.",
+    "name": "Bún chả",
+    "price": 65000,
+    "variantGroups": [],
+    "features": [
+      "bestseller"
+    ],
+    "imageUrl": null,
+    "ingredients": [
+      "Chả nướng",
+      "Nước mắm chua ngọt",
+      "Rau sống"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bún chả Hà Nội truyền thống với chả nướng thơm lừng, nước mắm chua ngọt và rau sống.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 7,
+    "categoryId": "starter",
+    "subCategoryId": "cha-gio",
+    "description": "Chả giò (nem rán) giòn rụm, nhân thịt và rau củ, chấm nước mắm chua ngọt.",
+    "name": "Chả giò",
+    "price": 55000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Thịt",
+      "Rau củ",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Chả giò (nem rán) giòn rụm, nhân thịt và rau củ, chấm nước mắm chua ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 8,
+    "categoryId": "drink",
+    "subCategoryId": "ca-phe",
+    "description": "Cà phê sữa đá thơm béo, đậm đà hương vị cà phê Robusta Việt Nam.",
+    "name": "Cà phê sữa đá",
+    "price": 30000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê Robusta",
+      "Sữa",
+      "Đá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê sữa đá thơm béo, đậm đà hương vị cà phê Robusta Việt Nam.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 9,
+    "categoryId": "drink",
+    "subCategoryId": "sinh-to",
+    "description": "Sinh tố bơ tươi ngon, thơm béo từ bơ sáp, xay nhuyễn với sữa đặc và đá.",
+    "name": "Sinh tố bơ",
+    "price": 35000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bơ sáp",
+      "Sữa đặc",
+      "Đá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Sinh tố bơ tươi ngon, thơm béo từ bơ sáp, xay nhuyễn với sữa đặc và đá.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 10,
+    "categoryId": "starter",
+    "subCategoryId": "banh-mi",
+    "description": "Bánh mì thịt nguội kẹp pa tê, chả lụa, dưa leo, cà chua, rau mùi và đồ chua.",
+    "name": "Bánh mì thịt",
+    "price": 35000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Thịt nguội",
+      "Pate",
+      "Chả lụa",
+      "Dưa leo",
+      "Cà chua",
+      "Rau mùi",
+      "Đồ chua"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì thịt nguội kẹp pa tê, chả lụa, dưa leo, cà chua, rau mùi và đồ chua.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 11,
+    "categoryId": "main-dish",
+    "subCategoryId": "pho-bun",
+    "description": "Bún bò Huế đặc sản miền Trung, nước dùng đậm đà, thịt bò, giò heo và chả cua.",
+    "name": "Bún bò Huế",
+    "price": 75000,
+    "variantGroups": [],
+    "features": [
+      "bestseller",
+      "spicy"
+    ],
+    "imageUrl": null,
+    "ingredients": [
+      "Nước dùng",
+      "Thịt bò",
+      "Giò heo",
+      "Chả cua"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bún bò Huế đặc sản miền Trung, nước dùng đậm đà, thịt bò, giò heo và chả cua.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": "Cay",
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 12,
+    "categoryId": "drink",
+    "subCategoryId": "tra",
+    "description": "Trà đá thơm mát, giải nhiệt ngày hè, uống kèm đá viên lạnh.",
+    "name": "Trà đá",
+    "price": 15000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trà",
+      "Đá viên"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà đá thơm mát, giải nhiệt ngày hè, uống kèm đá viên lạnh.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 13,
+    "categoryId": "main-dish",
+    "subCategoryId": "bo-nuong",
+    "description": "Thịt bò Mỹ nướng than hoa, mềm thơm, chấm muối tiêu và rượu đắng Quảng Bình.",
+    "name": "Bò nướng than",
+    "price": 125000,
+    "variantGroups": [],
+    "features": [
+      "bestseller"
+    ],
+    "imageUrl": null,
+    "ingredients": [
+      "Thịt bò Mỹ",
+      "Muối tiêu",
+      "Rượu đắng Quảng Bình (dùng kèm)"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Thịt bò Mỹ nướng than hoa, mềm thơm, chấm muối tiêu và rượu đắng Quảng Bình.",
+    "pairings": [
+      "Rượu đắng Quảng Bình"
+    ],
+    "drinkPairings": [
+      "Rượu đắng Quảng Bình"
+    ],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 14,
+    "categoryId": "main-dish",
+    "subCategoryId": "mon-kho",
+    "description": "Thịt kho tàu đậm đà với thịt ba chỉ mềm và trứng vịt, ăn kèm cơm trắng.",
+    "name": "Thịt kho tàu",
+    "price": 65000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Thịt ba chỉ",
+      "Trứng vịt",
+      "Cơm trắng (dùng kèm)"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Thịt kho tàu đậm đà với thịt ba chỉ mềm và trứng vịt, ăn kèm cơm trắng.",
+    "pairings": [
+      "Cơm trắng"
+    ],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 15,
+    "categoryId": "main-dish",
+    "subCategoryId": "com",
+    "description": "Cơm tấm Sài Gòn với sườn nướng, bì, chả trứng, dưa leo và nước mắm chua ngọt.",
+    "name": "Cơm tấm sườn nướng",
+    "price": 59000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm tấm",
+      "Sườn nướng",
+      "Bì",
+      "Chả trứng",
+      "Dưa leo",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm tấm Sài Gòn với sườn nướng, bì, chả trứng, dưa leo và nước mắm chua ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 16,
+    "categoryId": "main-dish",
+    "subCategoryId": "mon-xao",
+    "description": "Rau muống xào tỏi giòn ngọt, thơm tỏi phi vàng, món rau dân dã Việt Nam.",
+    "name": "Rau muống xào tỏi",
+    "price": 45000,
+    "variantGroups": [],
+    "features": [
+      "vegetarian"
+    ],
+    "imageUrl": null,
+    "ingredients": [
+      "Rau muống",
+      "Tỏi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Rau muống xào tỏi giòn ngọt, thơm tỏi phi vàng, món rau dân dã Việt Nam.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 17,
+    "categoryId": "dessert",
+    "subCategoryId": "che",
+    "description": "Chè ba màu đậu đỏ, đậu xanh, sương sáo thơm béo, kèm dừa nướng và nước cốt dừa.",
+    "name": "Chè ba màu",
+    "price": 25000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Đậu đỏ",
+      "Đậu xanh",
+      "Sương sáo",
+      "Dừa nướng",
+      "Nước cốt dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Chè ba màu đậu đỏ, đậu xanh, sương sáo thơm béo, kèm dừa nướng và nước cốt dừa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 18,
+    "categoryId": "dessert",
+    "subCategoryId": "banh-trang-mieng",
+    "description": "Bánh flan caramel mềm mịn, thơm mùi vani và trứng, dùng kèm caramel đắng nhẹ.",
+    "name": "Bánh flan caramel",
+    "price": 20000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Caramel",
+      "Vani",
+      "Trứng"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh flan caramel mềm mịn, thơm mùi vani và trứng, dùng kèm caramel đắng nhẹ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 19,
+    "categoryId": "drink",
+    "subCategoryId": "nuoc-ngot",
+    "description": "Nước mía đường thốt nốt, ép từ mía tươi, thêm đá viên lạnh giải nhiệt.",
+    "name": "Nước mía đường",
+    "price": 20000,
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Mía",
+      "Đường thốt nốt",
+      "Đá viên"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nước mía đường thốt nốt, ép từ mía tươi, thêm đá viên lạnh giải nhiệt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 20,
+    "categoryId": "starter",
+    "subCategoryId": "goi-nham",
+    "description": "Gỏi gà bắp cải trộn nước mắm chua ngọt, thêm ớt và hành phi thơm lừng.",
+    "name": "Gỏi gà",
+    "price": 55000,
+    "variantGroups": [],
+    "features": [
+      "new"
+    ],
+    "imageUrl": null,
+    "ingredients": [
+      "Gà",
+      "Bắp cải",
+      "Nước mắm chua ngọt",
+      "Ớt",
+      "Hành phi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Gỏi gà bắp cải trộn nước mắm chua ngọt, thêm ớt và hành phi thơm lừng.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 121,
+    "name": "Lẩu nấm rau củ",
+    "price": 199000,
+    "description": "Nước dùng thanh ngọt, nấm tươi và rau củ đầy sắc màu.",
+    "ingredients": [
+      "Nấm",
+      "Đậu phụ",
+      "Bắp",
+      "Cà rốt",
+      "Rau cải"
+    ],
+    "spicyLevel": "Không cay",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "new"
+    ],
+    "newMarked": true,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 119000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 239000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước dùng rau củ",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước dùng rau củ"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nước dùng thanh ngọt, nấm tươi và rau củ đầy sắc màu.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước dùng rau củ"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-nam-rau-cu.jpg"
+  },
+  {
+    "id": 122,
+    "name": "Lẩu Thái hải sản",
+    "price": 329000,
+    "description": "Nước lẩu Thái chua cay, tôm mực ngọt thịt, thơm sả.",
+    "ingredients": [
+      "Tôm",
+      "Mực",
+      "Vẹm",
+      "Cà chua",
+      "Sả",
+      "Rau cải"
+    ],
+    "spicyLevel": "Cay vừa",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "bestseller"
+    ],
+    "newMarked": false,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 197000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 395000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước lẩu Thái",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước lẩu Thái"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nước lẩu Thái chua cay, tôm mực ngọt thịt, thơm sả.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước lẩu Thái"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-thai-hai-san.jpg"
+  },
+  {
+    "id": 123,
+    "name": "Lẩu bò nhúng giấm",
+    "price": 299000,
+    "description": "Bò thái mỏng nhúng nước giấm dịu, ăn cùng rau tươi.",
+    "ingredients": [
+      "Thịt bò",
+      "Giấm",
+      "Hành tây",
+      "Rau cải"
+    ],
+    "spicyLevel": "Không cay",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "new"
+    ],
+    "newMarked": true,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 179000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 359000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước giấm thanh",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước giấm thanh"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bò thái mỏng nhúng nước giấm dịu, ăn cùng rau tươi.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước giấm thanh"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-bo-nhung-giam.jpg"
+  },
+  {
+    "id": 124,
+    "name": "Lẩu gà lá é",
+    "price": 269000,
+    "description": "Gà mềm, nước dùng trong ngọt, thơm hương lá é.",
+    "ingredients": [
+      "Thịt gà",
+      "Lá é",
+      "Nấm",
+      "Rau cải"
+    ],
+    "spicyLevel": "Cay nhẹ",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "bestseller"
+    ],
+    "newMarked": false,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 161000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 323000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước dùng gà lá é",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước dùng gà lá é"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Gà mềm, nước dùng trong ngọt, thơm hương lá é.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước dùng gà lá é"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-ga-la-e.jpg"
+  },
+  {
+    "id": 125,
+    "name": "Lẩu cá chua cay",
+    "price": 289000,
+    "description": "Cá tươi trong nước lẩu chua cay, cà chua và rau xanh.",
+    "ingredients": [
+      "Cá",
+      "Cà chua",
+      "Ớt",
+      "Rau cải"
+    ],
+    "spicyLevel": "Cay vừa",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "new"
+    ],
+    "newMarked": true,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 173000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 347000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước lẩu chua cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước lẩu chua cay"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cá tươi trong nước lẩu chua cay, cà chua và rau xanh.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước lẩu chua cay"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-ca-chua-cay.jpg"
+  },
+  {
+    "id": 126,
+    "name": "Lẩu riêu cua bắp bò",
+    "price": 319000,
+    "description": "Riêu cua thơm béo, bắp bò mềm, đậu phụ và rau tươi.",
+    "ingredients": [
+      "Cua",
+      "Bắp bò",
+      "Đậu phụ",
+      "Cà chua",
+      "Rau cải"
+    ],
+    "spicyLevel": "Không cay",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "bestseller"
+    ],
+    "newMarked": false,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 191000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 383000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước riêu cua",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước riêu cua"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Riêu cua thơm béo, bắp bò mềm, đậu phụ và rau tươi.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước riêu cua"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-rieu-cua-bap-bo.jpg"
+  },
+  {
+    "id": 127,
+    "name": "Lẩu kim chi",
+    "price": 279000,
+    "description": "Kim chi chua cay đậm đà, thịt heo và đậu phụ mềm.",
+    "ingredients": [
+      "Kim chi",
+      "Thịt heo",
+      "Đậu phụ",
+      "Nấm"
+    ],
+    "spicyLevel": "Cay vừa",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "new"
+    ],
+    "newMarked": true,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 167000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 335000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước lẩu kim chi",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước lẩu kim chi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Kim chi chua cay đậm đà, thịt heo và đậu phụ mềm.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước lẩu kim chi"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-kim-chi.jpg"
+  },
+  {
+    "id": 128,
+    "name": "Lẩu hải sản đặc biệt",
+    "price": 399000,
+    "description": "Tôm, cua, mực và vẹm trong nước dùng ngọt đậm vị biển.",
+    "ingredients": [
+      "Tôm",
+      "Cua",
+      "Mực",
+      "Vẹm",
+      "Rau cải"
+    ],
+    "spicyLevel": "Không cay",
+    "imageIsIllustration": true,
+    "categoryId": "main-dish",
+    "subCategoryId": "lau",
+    "features": [
+      "bestseller"
+    ],
+    "newMarked": false,
+    "variantGroups": [
+      {
+        "id": "size",
+        "title": "Size / số người",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "small",
+            "name": "Nhỏ · 2 người",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "medium",
+            "name": "Vừa · 4 người",
+            "extraPrice": 239000,
+            "defaultValue": false
+          },
+          {
+            "id": "large",
+            "name": "Lớn · 6 người",
+            "extraPrice": 479000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "spice",
+        "title": "Mức cay",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "none",
+            "name": "Không cay",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "light",
+            "name": "Cay nhẹ",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "medium",
+            "name": "Cay vừa",
+            "extraPrice": 0,
+            "defaultValue": false
+          },
+          {
+            "id": "hot",
+            "name": "Cay nhiều",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "broth",
+        "title": "Nước lẩu",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "original",
+            "name": "Nước dùng hải sản",
+            "extraPrice": 0,
+            "defaultValue": true
+          }
+        ]
+      },
+      {
+        "id": "toppings",
+        "title": "Thêm topping",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "beef",
+            "name": "Bò",
+            "extraPrice": 59000,
+            "defaultValue": false
+          },
+          {
+            "id": "shrimp",
+            "name": "Tôm",
+            "extraPrice": 69000,
+            "defaultValue": false
+          },
+          {
+            "id": "mushroom",
+            "name": "Nấm",
+            "extraPrice": 29000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "vegetables",
+        "title": "Rau thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "vegetables",
+            "name": "Rau theo mùa",
+            "extraPrice": 19000,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "noodles",
+        "title": "Bún / mì đi kèm",
+        "description": "Chọn một tùy chọn",
+        "type": "SINGLE",
+        "isRequired": true,
+        "options": [
+          {
+            "id": "vermicelli",
+            "name": "Bún tươi",
+            "extraPrice": 0,
+            "defaultValue": true
+          },
+          {
+            "id": "noodles",
+            "name": "Mì",
+            "extraPrice": 0,
+            "defaultValue": false
+          }
+        ]
+      },
+      {
+        "id": "drinks",
+        "title": "Nước uống thêm",
+        "description": "Có thể chọn nhiều",
+        "type": "MULTIPLE",
+        "isRequired": false,
+        "options": [
+          {
+            "id": "two",
+            "name": "2 chai nước suối",
+            "extraPrice": 20000,
+            "defaultValue": false
+          },
+          {
+            "id": "four",
+            "name": "4 chai nước suối",
+            "extraPrice": 40000,
+            "defaultValue": false
+          },
+          {
+            "id": "six",
+            "name": "6 chai nước suối",
+            "extraPrice": 60000,
+            "defaultValue": false
+          }
+        ]
+      }
+    ],
+    "availableOptions": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước dùng hải sản"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Tôm, cua, mực và vẹm trong nước dùng ngọt đậm vị biển.",
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "customizations": [
+      "Phần cơ bản dành cho 2 người; có size 4 và 6 người",
+      "Bao gồm rau và một phần bún hoặc mì",
+      "Nước lẩu: Nước dùng hải sản"
+    ],
+    "servingSize": "Nhỏ · 2 người; Vừa · 4 người; Lớn · 6 người",
+    "calories": null,
+    "available": null,
+    "pairings": [],
+    "drinkPairings": [],
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    },
+    "suitableForChildren": null,
+    "childNotes": null,
+    "imageUrl": "/images/hotpot/lau-hai-san-dac-biet.jpg"
+  },
+  {
+    "id": 33,
+    "subCategoryId": "bo-nuong",
+    "name": "Bò nướng sa tế",
+    "price": 129000,
+    "description": "Thịt bò ướp sa tế, nướng thơm cùng đậu bắp.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Thịt bò",
+      "Sa tế",
+      "Đậu bắp"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Thịt bò ướp sa tế, nướng thơm cùng đậu bắp.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 34,
+    "subCategoryId": "bo-nuong",
+    "name": "Sườn nướng mật ong",
+    "price": 99000,
+    "description": "Sườn heo nướng sốt mật ong, dùng kèm rau củ.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Sườn heo",
+      "Sốt mật ong",
+      "Rau củ (dùng kèm)"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Sườn heo nướng sốt mật ong, dùng kèm rau củ.",
+    "pairings": [
+      "Rau củ"
+    ],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 35,
+    "subCategoryId": "bo-nuong",
+    "name": "Gà nướng muối ớt",
+    "price": 119000,
+    "description": "Gà nướng da vàng, ướp muối ớt cay nhẹ.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Gà",
+      "Muối",
+      "Ớt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Gà nướng da vàng, ướp muối ớt cay nhẹ.",
+    "spicyLevel": "cay nhẹ",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 36,
+    "subCategoryId": "bo-nuong",
+    "name": "Tôm nướng muối ớt",
+    "price": 139000,
+    "description": "Tôm nướng muối ớt, ăn cùng chanh và rau thơm.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Tôm",
+      "Muối",
+      "Ớt",
+      "Chanh",
+      "Rau thơm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Tôm nướng muối ớt, ăn cùng chanh và rau thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 37,
+    "subCategoryId": "bo-nuong",
+    "name": "Mực nướng sa tế",
+    "price": 129000,
+    "description": "Mực nướng sa tế thơm cay, kèm dưa leo.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "mực tươi",
+      "sa tế",
+      "sả",
+      "tỏi",
+      "ớt",
+      "dầu ăn",
+      "gia vị"
+    ],
+    "ingredientsSource": "restaurant_verified",
+    "ingredientsComplete": true,
+    "ingredientsEvidence": "Mực nướng sa tế thơm cay, kèm dưa leo.",
+    "spicyLevel": "Cay vừa",
+    "allergens": [
+      "hải sản"
+    ],
+    "suitableFor": [
+      "người thích món cay",
+      "người thích hải sản"
+    ],
+    "notSuitableFor": [
+      "người dị ứng hải sản",
+      "trẻ nhỏ nếu không ăn được cay"
+    ],
+    "customizations": [
+      "ít cay",
+      "không cay",
+      "ít sa tế",
+      "thêm rau"
+    ],
+    "servingSize": "1–2 người",
+    "pairings": [
+      "rau sống",
+      "cơm trắng",
+      "khoai tây chiên"
+    ],
+    "drinkPairings": [
+      "trà chanh",
+      "nước chanh",
+      "nước ngọt",
+      "nước lọc"
+    ],
+    "unit": "phần",
+    "category": "Món chính",
+    "suitableForChildren": null,
+    "childNotes": null,
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 38,
+    "subCategoryId": "bo-nuong",
+    "name": "Ba chỉ nướng sả",
+    "price": 89000,
+    "description": "Ba chỉ ướp sả, nướng vàng cạnh, thơm lừng.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Ba chỉ",
+      "Sả"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Ba chỉ ướp sả, nướng vàng cạnh, thơm lừng.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 39,
+    "subCategoryId": "mon-kho",
+    "name": "Tôm rim mặn ngọt",
+    "price": 85000,
+    "description": "Tôm rim nước mắm và đường, vị mặn ngọt hài hòa.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Tôm",
+      "Nước mắm",
+      "Đường"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Tôm rim nước mắm và đường, vị mặn ngọt hài hòa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 40,
+    "subCategoryId": "mon-kho",
+    "name": "Cá bống kho tiêu",
+    "price": 75000,
+    "description": "Cá bống kho tiêu đậm đà trong niêu.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cá bống",
+      "Tiêu"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cá bống kho tiêu đậm đà trong niêu.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 41,
+    "subCategoryId": "mon-kho",
+    "name": "Gà kho gừng",
+    "price": 79000,
+    "description": "Gà kho gừng tươi, nước kho sánh thơm.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Gà",
+      "Gừng tươi",
+      "Nước kho"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Gà kho gừng tươi, nước kho sánh thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 42,
+    "subCategoryId": "mon-kho",
+    "name": "Sườn rim nước dừa",
+    "price": 89000,
+    "description": "Sườn rim nước dừa mềm, vị ngọt dịu.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Sườn",
+      "Nước dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Sườn rim nước dừa mềm, vị ngọt dịu.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 43,
+    "subCategoryId": "mon-kho",
+    "name": "Đậu hũ kho nấm",
+    "price": 55000,
+    "description": "Đậu hũ kho cùng nấm và nước tương.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Đậu hũ",
+      "Nấm",
+      "Nước tương"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Đậu hũ kho cùng nấm và nước tương.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 44,
+    "subCategoryId": "mon-kho",
+    "name": "Thịt kho tiêu",
+    "price": 69000,
+    "description": "Thịt heo kho tiêu, ăn kèm cơm nóng.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Thịt heo",
+      "Tiêu",
+      "Cơm (dùng kèm)"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Thịt heo kho tiêu, ăn kèm cơm nóng.",
+    "pairings": [
+      "Cơm"
+    ],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 45,
+    "subCategoryId": "pho-bun",
+    "name": "Bún riêu cua",
+    "price": 65000,
+    "description": "Bún riêu cua, cà chua, đậu hũ và rau sống.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bún",
+      "Riêu cua",
+      "Cà chua",
+      "Đậu hũ",
+      "Rau sống"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bún riêu cua, cà chua, đậu hũ và rau sống.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 46,
+    "subCategoryId": "pho-bun",
+    "name": "Bún thịt nướng",
+    "price": 65000,
+    "description": "Bún tươi với thịt nướng, rau và nước mắm chua ngọt.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bún tươi",
+      "Thịt nướng",
+      "Rau",
+      "Nước mắm chua ngọt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bún tươi với thịt nướng, rau và nước mắm chua ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 47,
+    "subCategoryId": "pho-bun",
+    "name": "Phở bò viên",
+    "price": 69000,
+    "description": "Phở nước dùng bò, bò viên và hành thơm.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nước dùng bò",
+      "Bò viên",
+      "Hành"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Phở nước dùng bò, bò viên và hành thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 48,
+    "subCategoryId": "pho-bun",
+    "name": "Bún măng vịt",
+    "price": 75000,
+    "description": "Bún với thịt vịt, măng và nước dùng thanh.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bún",
+      "Thịt vịt",
+      "Măng",
+      "Nước dùng"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bún với thịt vịt, măng và nước dùng thanh.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 49,
+    "subCategoryId": "mon-xao",
+    "name": "Mực xào chua ngọt",
+    "price": 99000,
+    "description": "Mực xào dứa, cà chua và hành tây.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Mực",
+      "Dứa",
+      "Cà chua",
+      "Hành tây"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Mực xào dứa, cà chua và hành tây.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 50,
+    "subCategoryId": "mon-xao",
+    "name": "Bò lúc lắc",
+    "price": 109000,
+    "description": "Bò áp chảo cùng ớt chuông và hành tây.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bò",
+      "Ớt chuông",
+      "Hành tây"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bò áp chảo cùng ớt chuông và hành tây.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 51,
+    "subCategoryId": "mon-xao",
+    "name": "Miến xào hải sản",
+    "price": 79000,
+    "description": "Miến xào tôm mực và rau củ.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Miến",
+      "Tôm",
+      "Mực",
+      "Rau củ"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Miến xào tôm mực và rau củ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 52,
+    "subCategoryId": "mon-xao",
+    "name": "Nấm xào rau củ",
+    "price": 59000,
+    "description": "Nấm tươi xào cùng bông cải và cà rốt.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nấm tươi",
+      "Bông cải",
+      "Cà rốt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nấm tươi xào cùng bông cải và cà rốt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 53,
+    "subCategoryId": "mon-xao",
+    "name": "Bông cải xào tỏi",
+    "price": 49000,
+    "description": "Bông cải xanh xào tỏi, giòn ngọt.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bông cải xanh",
+      "Tỏi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bông cải xanh xào tỏi, giòn ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 54,
+    "subCategoryId": "mon-xao",
+    "name": "Mì xào bò",
+    "price": 75000,
+    "description": "Mì xào thịt bò, cải xanh và hành tây.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Mì",
+      "Thịt bò",
+      "Cải xanh",
+      "Hành tây"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Mì xào thịt bò, cải xanh và hành tây.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 55,
+    "subCategoryId": "canh-chao",
+    "name": "Canh bí đỏ thịt bằm",
+    "price": 49000,
+    "description": "Bí đỏ mềm ngọt nấu cùng thịt bằm.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bí đỏ",
+      "Thịt bằm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bí đỏ mềm ngọt nấu cùng thịt bằm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 56,
+    "subCategoryId": "canh-chao",
+    "name": "Canh rau ngót thịt bằm",
+    "price": 45000,
+    "description": "Rau ngót nấu thịt bằm, nước canh thanh.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Rau ngót",
+      "Thịt bằm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Rau ngót nấu thịt bằm, nước canh thanh.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 57,
+    "subCategoryId": "canh-chao",
+    "name": "Canh khổ qua nhồi thịt",
+    "price": 59000,
+    "description": "Khổ qua nhồi thịt và nấm mèo, hầm mềm.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Khổ qua",
+      "Thịt",
+      "Nấm mèo"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Khổ qua nhồi thịt và nấm mèo, hầm mềm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 58,
+    "subCategoryId": "canh-chao",
+    "name": "Cháo hải sản",
+    "price": 75000,
+    "description": "Cháo nóng với tôm mực và hành lá.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cháo",
+      "Tôm",
+      "Mực",
+      "Hành lá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cháo nóng với tôm mực và hành lá.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 59,
+    "subCategoryId": "canh-chao",
+    "name": "Cháo sườn",
+    "price": 55000,
+    "description": "Cháo sườn hầm mềm, dùng cùng tiêu và hành.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cháo",
+      "Sườn",
+      "Tiêu",
+      "Hành"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cháo sườn hầm mềm, dùng cùng tiêu và hành.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 60,
+    "subCategoryId": "canh-chao",
+    "name": "Súp cua",
+    "price": 45000,
+    "description": "Súp cua với trứng và ngô, dùng nóng.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cua",
+      "Trứng",
+      "Ngô"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Súp cua với trứng và ngô, dùng nóng.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 61,
+    "subCategoryId": "com",
+    "name": "Cơm gà xối mỡ",
+    "price": 69000,
+    "description": "Cơm với gà da giòn và dưa leo.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm",
+      "Gà",
+      "Dưa leo"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm với gà da giòn và dưa leo.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 62,
+    "subCategoryId": "com",
+    "name": "Cơm bò lúc lắc",
+    "price": 79000,
+    "description": "Cơm trắng ăn cùng bò lúc lắc và rau củ.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm trắng",
+      "Bò lúc lắc",
+      "Rau củ"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm trắng ăn cùng bò lúc lắc và rau củ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 63,
+    "subCategoryId": "com",
+    "name": "Cơm chiên Dương Châu",
+    "price": 65000,
+    "description": "Cơm chiên trứng, tôm, lạp xưởng và rau củ.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm",
+      "Trứng",
+      "Tôm",
+      "Lạp xưởng",
+      "Rau củ"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm chiên trứng, tôm, lạp xưởng và rau củ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 64,
+    "subCategoryId": "com",
+    "name": "Cơm cá kho tộ",
+    "price": 69000,
+    "description": "Cơm trắng với cá kho tộ và rau luộc.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm trắng",
+      "Cá kho tộ",
+      "Rau luộc"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm trắng với cá kho tộ và rau luộc.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 65,
+    "subCategoryId": "com",
+    "name": "Cơm sườn bì chả",
+    "price": 75000,
+    "description": "Cơm tấm, sườn nướng, bì và chả trứng.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm tấm",
+      "Sườn nướng",
+      "Bì",
+      "Chả trứng"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm tấm, sườn nướng, bì và chả trứng.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 66,
+    "subCategoryId": "com",
+    "name": "Cơm chiên rau củ",
+    "price": 55000,
+    "description": "Cơm chiên cùng ngô, đậu Hà Lan và cà rốt.",
+    "categoryId": "main-dish",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cơm",
+      "Ngô",
+      "Đậu Hà Lan",
+      "Cà rốt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cơm chiên cùng ngô, đậu Hà Lan và cà rốt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Món chính",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 67,
+    "subCategoryId": "goi-nham",
+    "name": "Gỏi ngó sen tôm thịt",
+    "price": 79000,
+    "description": "Ngó sen giòn, tôm thịt và rau răm.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Ngó sen",
+      "Tôm",
+      "Thịt",
+      "Rau răm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Ngó sen giòn, tôm thịt và rau răm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 68,
+    "subCategoryId": "goi-nham",
+    "name": "Gỏi xoài khô cá",
+    "price": 69000,
+    "description": "Xoài xanh trộn khô cá, rau thơm và nước mắm.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Xoài xanh",
+      "Khô cá",
+      "Rau thơm",
+      "Nước mắm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Xoài xanh trộn khô cá, rau thơm và nước mắm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 69,
+    "subCategoryId": "goi-nham",
+    "name": "Gỏi bò bóp thấu",
+    "price": 89000,
+    "description": "Thịt bò trộn chuối chát, khế và rau thơm.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Thịt bò",
+      "Chuối chát",
+      "Khế",
+      "Rau thơm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Thịt bò trộn chuối chát, khế và rau thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 70,
+    "subCategoryId": "goi-nham",
+    "name": "Gỏi đu đủ tôm",
+    "price": 69000,
+    "description": "Đu đủ bào, tôm và nước trộn chua ngọt.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Đu đủ",
+      "Tôm",
+      "Nước trộn chua ngọt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Đu đủ bào, tôm và nước trộn chua ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 71,
+    "subCategoryId": "goi-nham",
+    "name": "Đậu hũ chiên sả",
+    "price": 45000,
+    "description": "Đậu hũ chiên vàng, áo sả thơm.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Đậu hũ",
+      "Sả"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Đậu hũ chiên vàng, áo sả thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 72,
+    "subCategoryId": "goi-nham",
+    "name": "Bắp xào tôm khô",
+    "price": 39000,
+    "description": "Bắp ngọt xào tôm khô và hành lá.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bắp ngọt",
+      "Tôm khô",
+      "Hành lá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bắp ngọt xào tôm khô và hành lá.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 73,
+    "subCategoryId": "cha-gio",
+    "name": "Chả giò hải sản",
+    "price": 69000,
+    "description": "Chả giò giòn với nhân tôm mực.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Tôm",
+      "Mực"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Chả giò giòn với nhân tôm mực.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 74,
+    "subCategoryId": "cha-gio",
+    "name": "Chả giò chay",
+    "price": 49000,
+    "description": "Chả giò nhân rau củ, nấm và miến.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Rau củ",
+      "Nấm",
+      "Miến"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Chả giò nhân rau củ, nấm và miến.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 75,
+    "subCategoryId": "cha-gio",
+    "name": "Nem lụi Huế",
+    "price": 69000,
+    "description": "Nem lụi nướng sả, dùng kèm rau và bánh tráng.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nem lụi",
+      "Sả",
+      "Rau",
+      "Bánh tráng"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nem lụi nướng sả, dùng kèm rau và bánh tráng.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 76,
+    "subCategoryId": "cha-gio",
+    "name": "Nem cua bể",
+    "price": 79000,
+    "description": "Nem vuông nhân cua, thịt và miến.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cua",
+      "Thịt",
+      "Miến"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nem vuông nhân cua, thịt và miến.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 77,
+    "subCategoryId": "cha-gio",
+    "name": "Chả ram tôm đất",
+    "price": 65000,
+    "description": "Chả ram cuốn tôm đất, chiên giòn.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Tôm đất"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Chả ram cuốn tôm đất, chiên giòn.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 78,
+    "subCategoryId": "cha-gio",
+    "name": "Nem chua rán",
+    "price": 55000,
+    "description": "Nem chua rán vàng, dùng cùng sốt chấm.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nem chua",
+      "Sốt chấm"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nem chua rán vàng, dùng cùng sốt chấm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 79,
+    "subCategoryId": "banh-mi",
+    "name": "Bánh mì bò nướng",
+    "price": 49000,
+    "description": "Bánh mì bò nướng với đồ chua và rau mùi.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Bò nướng",
+      "Đồ chua",
+      "Rau mùi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì bò nướng với đồ chua và rau mùi.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 80,
+    "subCategoryId": "banh-mi",
+    "name": "Bánh mì xíu mại",
+    "price": 35000,
+    "description": "Bánh mì ăn cùng xíu mại sốt cà chua.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Xíu mại",
+      "Sốt cà chua"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì ăn cùng xíu mại sốt cà chua.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 81,
+    "subCategoryId": "banh-mi",
+    "name": "Bánh mì trứng ốp la",
+    "price": 29000,
+    "description": "Bánh mì giòn với trứng ốp la và dưa leo.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Trứng",
+      "Dưa leo"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì giòn với trứng ốp la và dưa leo.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 82,
+    "subCategoryId": "banh-mi",
+    "name": "Bánh mì chả lụa",
+    "price": 35000,
+    "description": "Bánh mì chả lụa, pa tê và đồ chua.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Chả lụa",
+      "Pate",
+      "Đồ chua"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì chả lụa, pa tê và đồ chua.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 83,
+    "subCategoryId": "banh-mi",
+    "name": "Bánh mì heo quay",
+    "price": 45000,
+    "description": "Bánh mì heo quay giòn da và nước sốt.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Heo quay",
+      "Nước sốt"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì heo quay giòn da và nước sốt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 84,
+    "subCategoryId": "banh-mi",
+    "name": "Bánh mì nấm chay",
+    "price": 35000,
+    "description": "Bánh mì nhân nấm, rau và sốt chay.",
+    "categoryId": "starter",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Bánh mì",
+      "Nấm",
+      "Rau",
+      "Sốt chay"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh mì nhân nấm, rau và sốt chay.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Khai vị",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 85,
+    "subCategoryId": "ca-phe",
+    "name": "Cà phê đen đá",
+    "price": 25000,
+    "description": "Cà phê đen đậm vị, phục vụ cùng đá.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê đen",
+      "Đá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê đen đậm vị, phục vụ cùng đá.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 86,
+    "subCategoryId": "ca-phe",
+    "name": "Cà phê đen nóng",
+    "price": 25000,
+    "description": "Cà phê đen pha nóng, hương thơm đậm.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê đen"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê đen pha nóng, hương thơm đậm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 87,
+    "subCategoryId": "ca-phe",
+    "name": "Cà phê sữa nóng",
+    "price": 30000,
+    "description": "Cà phê nóng kết hợp sữa đặc.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê",
+      "Sữa đặc"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê nóng kết hợp sữa đặc.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 88,
+    "subCategoryId": "ca-phe",
+    "name": "Cà phê muối",
+    "price": 39000,
+    "description": "Cà phê phủ kem muối béo nhẹ.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê",
+      "Kem muối"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê phủ kem muối béo nhẹ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 89,
+    "subCategoryId": "ca-phe",
+    "name": "Cà phê dừa",
+    "price": 45000,
+    "description": "Cà phê kết hợp cốt dừa và đá xay.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê",
+      "Cốt dừa",
+      "Đá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê kết hợp cốt dừa và đá xay.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 90,
+    "subCategoryId": "ca-phe",
+    "name": "Cà phê trứng",
+    "price": 45000,
+    "description": "Cà phê nóng phủ lớp kem trứng đánh bông.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cà phê",
+      "Kem trứng"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cà phê nóng phủ lớp kem trứng đánh bông.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 91,
+    "subCategoryId": "tra",
+    "name": "Trà vải",
+    "price": 39000,
+    "description": "Trà thơm với vải ngọt và đá viên.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trà",
+      "Vải",
+      "Đá viên"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà thơm với vải ngọt và đá viên.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 92,
+    "subCategoryId": "tra",
+    "name": "Trà chanh",
+    "price": 25000,
+    "description": "Trà chanh thanh mát, chua ngọt nhẹ.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trà",
+      "Chanh"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà chanh thanh mát, chua ngọt nhẹ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 93,
+    "subCategoryId": "tra",
+    "name": "Trà tắc mật ong",
+    "price": 29000,
+    "description": "Trà tắc pha mật ong, thơm dịu.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trà",
+      "Tắc",
+      "Mật ong"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà tắc pha mật ong, thơm dịu.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 94,
+    "subCategoryId": "tra",
+    "name": "Trà sen",
+    "price": 35000,
+    "description": "Trà hương sen thanh nhẹ.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trà hương sen"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà hương sen thanh nhẹ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 95,
+    "subCategoryId": "tra",
+    "name": "Trà gừng mật ong",
+    "price": 35000,
+    "description": "Trà gừng ấm với mật ong.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trà",
+      "Gừng",
+      "Mật ong"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà gừng ấm với mật ong.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 96,
+    "subCategoryId": "tra",
+    "name": "Trà lài chanh dây",
+    "price": 39000,
+    "description": "Trà lài kết hợp chanh dây thơm chua.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trà lài",
+      "Chanh dây"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Trà lài kết hợp chanh dây thơm chua.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 97,
+    "subCategoryId": "sinh-to",
+    "name": "Sinh tố xoài",
+    "price": 39000,
+    "description": "Xoài chín xay sữa và đá.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Xoài chín",
+      "Sữa",
+      "Đá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Xoài chín xay sữa và đá.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 98,
+    "subCategoryId": "sinh-to",
+    "name": "Sinh tố dâu",
+    "price": 45000,
+    "description": "Dâu tây xay cùng sữa, vị chua ngọt.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Dâu tây",
+      "Sữa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Dâu tây xay cùng sữa, vị chua ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 99,
+    "subCategoryId": "sinh-to",
+    "name": "Sinh tố mãng cầu",
+    "price": 39000,
+    "description": "Mãng cầu xay sữa, thơm mát.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Mãng cầu",
+      "Sữa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Mãng cầu xay sữa, thơm mát.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 100,
+    "subCategoryId": "sinh-to",
+    "name": "Nước ép dưa hấu",
+    "price": 35000,
+    "description": "Dưa hấu ép tươi, ngọt mát.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Dưa hấu"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Dưa hấu ép tươi, ngọt mát.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 101,
+    "subCategoryId": "sinh-to",
+    "name": "Nước ép dứa",
+    "price": 35000,
+    "description": "Dứa ép tươi, vị chua ngọt.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Dứa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Dứa ép tươi, vị chua ngọt.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 102,
+    "subCategoryId": "sinh-to",
+    "name": "Nước ép ổi",
+    "price": 35000,
+    "description": "Ổi tươi ép, hương thơm dịu.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Ổi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Ổi tươi ép, hương thơm dịu.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 103,
+    "subCategoryId": "nuoc-ngot",
+    "name": "Soda chanh dây",
+    "price": 35000,
+    "description": "Soda chanh dây với đá viên.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Soda",
+      "Chanh dây",
+      "Đá viên"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Soda chanh dây với đá viên.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 104,
+    "subCategoryId": "nuoc-ngot",
+    "name": "Soda dâu",
+    "price": 35000,
+    "description": "Soda dâu chua ngọt, mát lạnh.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Soda dâu"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Soda dâu chua ngọt, mát lạnh.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 105,
+    "subCategoryId": "nuoc-ngot",
+    "name": "Nước dừa tươi",
+    "price": 35000,
+    "description": "Nước dừa tươi thanh mát.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nước dừa tươi"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nước dừa tươi thanh mát.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 106,
+    "subCategoryId": "nuoc-ngot",
+    "name": "Nước sâm",
+    "price": 25000,
+    "description": "Nước sâm thảo mộc, vị ngọt nhẹ.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nước sâm thảo mộc"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nước sâm thảo mộc, vị ngọt nhẹ.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 107,
+    "subCategoryId": "nuoc-ngot",
+    "name": "Nước suối",
+    "price": 15000,
+    "description": "Nước uống đóng chai.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nước uống đóng chai"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Nước uống đóng chai.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 108,
+    "subCategoryId": "nuoc-ngot",
+    "name": "Nước chanh tươi",
+    "price": 25000,
+    "description": "Chanh tươi pha đường và đá.",
+    "categoryId": "drink",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Chanh tươi",
+      "Đường",
+      "Đá"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Chanh tươi pha đường và đá.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Đồ uống",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 109,
+    "subCategoryId": "che",
+    "name": "Chè bưởi",
+    "price": 29000,
+    "description": "Cùi bưởi giòn, đậu xanh và nước cốt dừa.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Cùi bưởi",
+      "Đậu xanh",
+      "Nước cốt dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Cùi bưởi giòn, đậu xanh và nước cốt dừa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 110,
+    "subCategoryId": "che",
+    "name": "Chè Thái",
+    "price": 35000,
+    "description": "Mít, thạch và trái cây trong sữa dừa.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Mít",
+      "Thạch",
+      "Trái cây",
+      "Sữa dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Mít, thạch và trái cây trong sữa dừa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 111,
+    "subCategoryId": "che",
+    "name": "Chè đậu đỏ",
+    "price": 25000,
+    "description": "Đậu đỏ nấu mềm, thêm nước cốt dừa.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Đậu đỏ",
+      "Nước cốt dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Đậu đỏ nấu mềm, thêm nước cốt dừa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 112,
+    "subCategoryId": "che",
+    "name": "Chè khoai dẻo",
+    "price": 35000,
+    "description": "Khoai dẻo, thạch và nước cốt dừa thơm béo.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Khoai dẻo",
+      "Thạch",
+      "Nước cốt dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Khoai dẻo, thạch và nước cốt dừa thơm béo.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 113,
+    "subCategoryId": "che",
+    "name": "Chè trôi nước",
+    "price": 29000,
+    "description": "Viên nếp nhân đậu xanh trong nước đường gừng.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Nếp",
+      "Đậu xanh",
+      "Nước đường gừng"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Viên nếp nhân đậu xanh trong nước đường gừng.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 114,
+    "subCategoryId": "che",
+    "name": "Chè chuối",
+    "price": 25000,
+    "description": "Chuối nấu nước cốt dừa và bột báng.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Chuối",
+      "Nước cốt dừa",
+      "Bột báng"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Chuối nấu nước cốt dừa và bột báng.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 115,
+    "subCategoryId": "banh-trang-mieng",
+    "name": "Bánh da lợn",
+    "price": 25000,
+    "description": "Bánh hấp lá dứa và đậu xanh, dẻo thơm.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Lá dứa",
+      "Đậu xanh"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh hấp lá dứa và đậu xanh, dẻo thơm.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 116,
+    "subCategoryId": "banh-trang-mieng",
+    "name": "Bánh chuối hấp",
+    "price": 29000,
+    "description": "Bánh chuối hấp, dùng cùng nước cốt dừa.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Chuối",
+      "Nước cốt dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Bánh chuối hấp, dùng cùng nước cốt dừa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 117,
+    "subCategoryId": "banh-trang-mieng",
+    "name": "Rau câu dừa",
+    "price": 25000,
+    "description": "Rau câu dừa mát lạnh, mềm giòn.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Rau câu dừa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Rau câu dừa mát lạnh, mềm giòn.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 118,
+    "subCategoryId": "banh-trang-mieng",
+    "name": "Sữa chua trái cây",
+    "price": 35000,
+    "description": "Sữa chua dùng cùng trái cây theo mùa.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Sữa chua",
+      "Trái cây theo mùa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Sữa chua dùng cùng trái cây theo mùa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 119,
+    "subCategoryId": "banh-trang-mieng",
+    "name": "Kem dừa",
+    "price": 35000,
+    "description": "Kem dừa mát lạnh với dừa sấy.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Kem dừa",
+      "Dừa sấy"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Kem dừa mát lạnh với dừa sấy.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  },
+  {
+    "id": 120,
+    "subCategoryId": "banh-trang-mieng",
+    "name": "Trái cây theo mùa",
+    "price": 45000,
+    "description": "Đĩa trái cây tươi chọn theo mùa.",
+    "categoryId": "dessert",
+    "variantGroups": [],
+    "features": [],
+    "imageUrl": null,
+    "ingredients": [
+      "Trái cây theo mùa"
+    ],
+    "ingredientsSource": "menu_description",
+    "ingredientsComplete": false,
+    "ingredientsEvidence": "Đĩa trái cây tươi chọn theo mùa.",
+    "pairings": [],
+    "drinkPairings": [],
+    "customizations": [],
+    "servingSize": null,
+    "unit": "phần",
+    "category": "Tráng miệng",
+    "spicyLevel": null,
+    "allergens": [],
+    "suitableForChildren": null,
+    "childNotes": null,
+    "suitableFor": [],
+    "notSuitableFor": [],
+    "calories": null,
+    "available": null,
+    "nutrition": {
+      "calories": null,
+      "protein": null,
+      "fat": null,
+      "carbs": null
+    }
+  }
+]

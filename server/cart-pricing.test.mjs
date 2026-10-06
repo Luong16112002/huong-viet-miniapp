@@ -1,0 +1,8 @@
+﻿import test from 'node:test';
+import assert from 'node:assert/strict';
+import { priceCart } from './cart-pricing.mjs';
+const menu=[{id:1,name:'Bò nướng than',price:125000},{id:2,name:'Phở gà',price:59000}];
+const draft={deliveryType:'pickup',items:[{productId:1,quantity:1},{productId:2,quantity:1}]};
+test('server prices ignore client amounts and distinguish all receiving methods',()=>{for(const type of ['pickup','delivery','dinein']){const q=priceCart(menu,{...draft,deliveryType:type,discount:999999,total:1});assert.equal(q.subtotal,184000);assert.equal(q.total,type==='delivery'?209000:184000);}});
+test('configured vouchers apply minimum, expiration, enabled status and discount ceiling',()=>{const vouchers=[{code:'TEST30',enabled:true,amount:30000,minSubtotal:150000,expiresAt:'2030-01-01'}];assert.equal(priceCart(menu,{...draft,voucherCode:'test30'},vouchers,0).total,154000);assert.throws(()=>priceCart(menu,{...draft,voucherCode:'TEST30'},[]),/không hợp lệ/);assert.throws(()=>priceCart(menu,{...draft,voucherCode:'TEST30'},vouchers,Date.parse('2031-01-01')),/hết hạn/);assert.throws(()=>priceCart(menu,{...draft,items:[{productId:2,quantity:1}],voucherCode:'TEST30'},vouchers,0),/tối thiểu/);assert.equal(priceCart(menu,{...draft,voucherCode:'BIG'},[{code:'BIG',enabled:true,amount:999999}]).total,0);});
+test('invalid carts cannot receive a quote',()=>{for(const quantity of [0,-1,1.5,21])assert.throws(()=>priceCart(menu,{...draft,items:[{productId:1,quantity}]}));assert.throws(()=>priceCart(menu,{...draft,items:[]}));assert.throws(()=>priceCart(menu,{...draft,items:[{productId:99,quantity:1}]}));assert.throws(()=>priceCart(menu,{...draft,items:[{productId:1,quantity:1,options:[{price:1}]}]}));});
